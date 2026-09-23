@@ -1,0 +1,2 @@
+n_fields,human_categorical,human_non_categorical,predicted_categorical,predicted_non_categorical,accuracy,precision,recall,f1,specificity,balanced_accuracy,tn,fp,fn,tp,datasets
+1932,1068,864,1102,830,0.912008281573499,0.9074410163339383,0.9363295880149812,0.9216589861751152,0.8819444444444444,0.9091370162297128,762,102,68,1000,102

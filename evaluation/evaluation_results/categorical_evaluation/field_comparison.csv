@@ -1,0 +1,1933 @@
+dataset,recordset,field,human_is_categorical,llm_is_categorical,correct
+30000_Spotify_Songs,spotify_songs.csv,acousticness,False,False,True
+30000_Spotify_Songs,spotify_songs.csv,danceability,False,False,True
+30000_Spotify_Songs,spotify_songs.csv,duration_ms,False,False,True
+30000_Spotify_Songs,spotify_songs.csv,energy,False,False,True
+30000_Spotify_Songs,spotify_songs.csv,instrumentalness,False,False,True
+30000_Spotify_Songs,spotify_songs.csv,key,True,True,True
+30000_Spotify_Songs,spotify_songs.csv,liveness,False,False,True
+30000_Spotify_Songs,spotify_songs.csv,loudness,False,False,True
+30000_Spotify_Songs,spotify_songs.csv,mode,True,True,True
+30000_Spotify_Songs,spotify_songs.csv,playlist_genre,True,True,True
+30000_Spotify_Songs,spotify_songs.csv,playlist_id,False,True,False
+30000_Spotify_Songs,spotify_songs.csv,playlist_name,False,True,False
+30000_Spotify_Songs,spotify_songs.csv,playlist_subgenre,True,True,True
+30000_Spotify_Songs,spotify_songs.csv,speechiness,False,False,True
+30000_Spotify_Songs,spotify_songs.csv,tempo,False,False,True
+30000_Spotify_Songs,spotify_songs.csv,track_album_id,False,True,False
+30000_Spotify_Songs,spotify_songs.csv,track_album_name,False,True,False
+30000_Spotify_Songs,spotify_songs.csv,track_album_release_date,False,True,False
+30000_Spotify_Songs,spotify_songs.csv,track_artist,True,True,True
+30000_Spotify_Songs,spotify_songs.csv,track_id,False,True,False
+30000_Spotify_Songs,spotify_songs.csv,track_name,False,True,False
+30000_Spotify_Songs,spotify_songs.csv,track_popularity,False,False,True
+30000_Spotify_Songs,spotify_songs.csv,valence,False,False,True
+Adult_Census_Income,adult.csv,age,False,False,True
+Adult_Census_Income,adult.csv,capital.gain,False,False,True
+Adult_Census_Income,adult.csv,capital.loss,False,False,True
+Adult_Census_Income,adult.csv,education,True,True,True
+Adult_Census_Income,adult.csv,education.num,False,False,True
+Adult_Census_Income,adult.csv,fnlwgt,False,False,True
+Adult_Census_Income,adult.csv,hours.per.week,False,False,True
+Adult_Census_Income,adult.csv,income,True,True,True
+Adult_Census_Income,adult.csv,marital.status,True,True,True
+Adult_Census_Income,adult.csv,native.country,True,True,True
+Adult_Census_Income,adult.csv,occupation,True,True,True
+Adult_Census_Income,adult.csv,race,True,True,True
+Adult_Census_Income,adult.csv,relationship,True,True,True
+Adult_Census_Income,adult.csv,sex,True,True,True
+Adult_Census_Income,adult.csv,workclass,True,True,True
+Adult_income_dataset,adult.csv,age,False,False,True
+Adult_income_dataset,adult.csv,capital-gain,False,False,True
+Adult_income_dataset,adult.csv,capital-loss,False,False,True
+Adult_income_dataset,adult.csv,education,True,True,True
+Adult_income_dataset,adult.csv,educational-num,False,False,True
+Adult_income_dataset,adult.csv,fnlwgt,False,False,True
+Adult_income_dataset,adult.csv,gender,True,True,True
+Adult_income_dataset,adult.csv,hours-per-week,False,False,True
+Adult_income_dataset,adult.csv,income,True,True,True
+Adult_income_dataset,adult.csv,marital-status,True,True,True
+Adult_income_dataset,adult.csv,native-country,True,True,True
+Adult_income_dataset,adult.csv,occupation,True,True,True
+Adult_income_dataset,adult.csv,race,True,True,True
+Adult_income_dataset,adult.csv,relationship,True,True,True
+Adult_income_dataset,adult.csv,workclass,True,True,True
+Amazon_Sales_Dataset,Amazon.csv,Brand,True,True,True
+Amazon_Sales_Dataset,Amazon.csv,Category,True,True,True
+Amazon_Sales_Dataset,Amazon.csv,City,True,True,True
+Amazon_Sales_Dataset,Amazon.csv,Country,True,True,True
+Amazon_Sales_Dataset,Amazon.csv,CustomerID,True,True,True
+Amazon_Sales_Dataset,Amazon.csv,CustomerName,True,True,True
+Amazon_Sales_Dataset,Amazon.csv,Discount,False,False,True
+Amazon_Sales_Dataset,Amazon.csv,OrderDate,False,False,True
+Amazon_Sales_Dataset,Amazon.csv,OrderID,True,True,True
+Amazon_Sales_Dataset,Amazon.csv,OrderStatus,True,True,True
+Amazon_Sales_Dataset,Amazon.csv,PaymentMethod,True,True,True
+Amazon_Sales_Dataset,Amazon.csv,ProductID,True,True,True
+Amazon_Sales_Dataset,Amazon.csv,ProductName,True,True,True
+Amazon_Sales_Dataset,Amazon.csv,Quantity,False,False,True
+Amazon_Sales_Dataset,Amazon.csv,SellerID,True,True,True
+Amazon_Sales_Dataset,Amazon.csv,ShippingCost,False,False,True
+Amazon_Sales_Dataset,Amazon.csv,State,True,True,True
+Amazon_Sales_Dataset,Amazon.csv,Tax,False,False,True
+Amazon_Sales_Dataset,Amazon.csv,TotalAmount,False,False,True
+Amazon_Sales_Dataset,Amazon.csv,UnitPrice,False,False,True
+animal_dataset_csv__,animal_dataset.csv,Animal_ID,False,False,True
+animal_dataset_csv__,animal_dataset.csv,Average_Lifespan (Years),False,False,True
+animal_dataset_csv__,animal_dataset.csv,Conservation_Status,True,True,True
+animal_dataset_csv__,animal_dataset.csv,Diet_Type,True,True,True
+animal_dataset_csv__,animal_dataset.csv,Domesticated,True,True,True
+animal_dataset_csv__,animal_dataset.csv,Endangered_Level (1-5),True,True,True
+animal_dataset_csv__,animal_dataset.csv,Habitat,True,True,True
+animal_dataset_csv__,animal_dataset.csv,Height (cm),False,False,True
+animal_dataset_csv__,animal_dataset.csv,Intelligence_Level,True,True,True
+animal_dataset_csv__,animal_dataset.csv,Nocturnal,True,True,True
+animal_dataset_csv__,animal_dataset.csv,Primary_Region,True,True,True
+animal_dataset_csv__,animal_dataset.csv,Species,True,True,True
+animal_dataset_csv__,animal_dataset.csv,Speed (km/h),False,False,True
+animal_dataset_csv__,animal_dataset.csv,Weight (kg),False,False,True
+Arrest_Data_in_Los_Angeles_,Arrest_Data_from_2020_to_Present.csv,Address,False,True,False
+Arrest_Data_in_Los_Angeles_,Arrest_Data_from_2020_to_Present.csv,Age,False,False,True
+Arrest_Data_in_Los_Angeles_,Arrest_Data_from_2020_to_Present.csv,Area ID,True,True,True
+Arrest_Data_in_Los_Angeles_,Arrest_Data_from_2020_to_Present.csv,Area Name,True,True,True
+Arrest_Data_in_Los_Angeles_,Arrest_Data_from_2020_to_Present.csv,Arrest Date,False,False,True
+Arrest_Data_in_Los_Angeles_,Arrest_Data_from_2020_to_Present.csv,Arrest Type Code,True,True,True
+Arrest_Data_in_Los_Angeles_,Arrest_Data_from_2020_to_Present.csv,Booking Date,False,False,True
+Arrest_Data_in_Los_Angeles_,Arrest_Data_from_2020_to_Present.csv,Booking Location,False,True,False
+Arrest_Data_in_Los_Angeles_,Arrest_Data_from_2020_to_Present.csv,Booking Location Code,True,True,True
+Arrest_Data_in_Los_Angeles_,Arrest_Data_from_2020_to_Present.csv,Booking Time,False,False,True
+Arrest_Data_in_Los_Angeles_,Arrest_Data_from_2020_to_Present.csv,Charge,True,True,True
+Arrest_Data_in_Los_Angeles_,Arrest_Data_from_2020_to_Present.csv,Charge Description,False,True,False
+Arrest_Data_in_Los_Angeles_,Arrest_Data_from_2020_to_Present.csv,Charge Group Code,True,True,True
+Arrest_Data_in_Los_Angeles_,Arrest_Data_from_2020_to_Present.csv,Charge Group Description,False,True,False
+Arrest_Data_in_Los_Angeles_,Arrest_Data_from_2020_to_Present.csv,Cross Street,False,True,False
+Arrest_Data_in_Los_Angeles_,Arrest_Data_from_2020_to_Present.csv,Descent Code,True,True,True
+Arrest_Data_in_Los_Angeles_,Arrest_Data_from_2020_to_Present.csv,Disposition Description,False,True,False
+Arrest_Data_in_Los_Angeles_,Arrest_Data_from_2020_to_Present.csv,LAT,False,False,True
+Arrest_Data_in_Los_Angeles_,Arrest_Data_from_2020_to_Present.csv,LON,False,False,True
+Arrest_Data_in_Los_Angeles_,Arrest_Data_from_2020_to_Present.csv,Location,False,True,False
+Arrest_Data_in_Los_Angeles_,Arrest_Data_from_2020_to_Present.csv,Report ID,False,False,True
+Arrest_Data_in_Los_Angeles_,Arrest_Data_from_2020_to_Present.csv,Report Type,True,True,True
+Arrest_Data_in_Los_Angeles_,Arrest_Data_from_2020_to_Present.csv,Reporting District,False,True,False
+Arrest_Data_in_Los_Angeles_,Arrest_Data_from_2020_to_Present.csv,Sex Code,True,True,True
+Arrest_Data_in_Los_Angeles_,Arrest_Data_from_2020_to_Present.csv,Time,False,False,True
+Bank_Marketing_Data_Set_,bank-direct-marketing-campaigns.csv,age,False,False,True
+Bank_Marketing_Data_Set_,bank-direct-marketing-campaigns.csv,campaign,False,False,True
+Bank_Marketing_Data_Set_,bank-direct-marketing-campaigns.csv,cons.conf.idx,False,False,True
+Bank_Marketing_Data_Set_,bank-direct-marketing-campaigns.csv,cons.price.idx,False,False,True
+Bank_Marketing_Data_Set_,bank-direct-marketing-campaigns.csv,contact,True,True,True
+Bank_Marketing_Data_Set_,bank-direct-marketing-campaigns.csv,day_of_week,True,True,True
+Bank_Marketing_Data_Set_,bank-direct-marketing-campaigns.csv,default,True,True,True
+Bank_Marketing_Data_Set_,bank-direct-marketing-campaigns.csv,education,True,True,True
+Bank_Marketing_Data_Set_,bank-direct-marketing-campaigns.csv,emp.var.rate,False,False,True
+Bank_Marketing_Data_Set_,bank-direct-marketing-campaigns.csv,euribor3m,False,False,True
+Bank_Marketing_Data_Set_,bank-direct-marketing-campaigns.csv,housing,True,True,True
+Bank_Marketing_Data_Set_,bank-direct-marketing-campaigns.csv,job,True,True,True
+Bank_Marketing_Data_Set_,bank-direct-marketing-campaigns.csv,loan,True,True,True
+Bank_Marketing_Data_Set_,bank-direct-marketing-campaigns.csv,marital,True,True,True
+Bank_Marketing_Data_Set_,bank-direct-marketing-campaigns.csv,month,True,True,True
+Bank_Marketing_Data_Set_,bank-direct-marketing-campaigns.csv,nr.employed,False,False,True
+Bank_Marketing_Data_Set_,bank-direct-marketing-campaigns.csv,pdays,False,False,True
+Bank_Marketing_Data_Set_,bank-direct-marketing-campaigns.csv,poutcome,True,True,True
+Bank_Marketing_Data_Set_,bank-direct-marketing-campaigns.csv,previous,False,False,True
+Bank_Marketing_Data_Set_,bank-direct-marketing-campaigns.csv,y,True,True,True
+Bank_personal_loan_,Bank_Personal_Loan_Modelling(1).csv,Age,False,False,True
+Bank_personal_loan_,Bank_Personal_Loan_Modelling(1).csv,CCAvg,False,False,True
+Bank_personal_loan_,Bank_Personal_Loan_Modelling(1).csv,CD Account,True,True,True
+Bank_personal_loan_,Bank_Personal_Loan_Modelling(1).csv,CreditCard,True,True,True
+Bank_personal_loan_,Bank_Personal_Loan_Modelling(1).csv,Education,True,True,True
+Bank_personal_loan_,Bank_Personal_Loan_Modelling(1).csv,Experience,False,False,True
+Bank_personal_loan_,Bank_Personal_Loan_Modelling(1).csv,Family,True,True,True
+Bank_personal_loan_,Bank_Personal_Loan_Modelling(1).csv,ID,False,False,True
+Bank_personal_loan_,Bank_Personal_Loan_Modelling(1).csv,Income,False,False,True
+Bank_personal_loan_,Bank_Personal_Loan_Modelling(1).csv,Mortgage,True,True,True
+Bank_personal_loan_,Bank_Personal_Loan_Modelling(1).csv,Online,True,True,True
+Bank_personal_loan_,Bank_Personal_Loan_Modelling(1).csv,Personal Loan,True,True,True
+Bank_personal_loan_,Bank_Personal_Loan_Modelling(1).csv,Securities Account,True,True,True
+Bank_personal_loan_,Bank_Personal_Loan_Modelling(1).csv,ZIP Code,True,True,True
+Best_Selling_Mobile_Phones_,top_selling_mobile_phones.csv,Form factor,True,True,True
+Best_Selling_Mobile_Phones_,top_selling_mobile_phones.csv,Graph (million units),False,False,True
+Best_Selling_Mobile_Phones_,top_selling_mobile_phones.csv,Graph (million units).1,False,False,True
+Best_Selling_Mobile_Phones_,top_selling_mobile_phones.csv,Manufacturer,True,True,True
+Best_Selling_Mobile_Phones_,top_selling_mobile_phones.csv,Model,True,True,True
+Best_Selling_Mobile_Phones_,top_selling_mobile_phones.csv,Smartphone?,True,True,True
+Best_Selling_Mobile_Phones_,top_selling_mobile_phones.csv,Year,False,True,False
+Cardiovascular_Disease_dataset__,cardio_train.csv,active,True,True,True
+Cardiovascular_Disease_dataset__,cardio_train.csv,age,False,False,True
+Cardiovascular_Disease_dataset__,cardio_train.csv,alco,True,True,True
+Cardiovascular_Disease_dataset__,cardio_train.csv,ap_hi,False,False,True
+Cardiovascular_Disease_dataset__,cardio_train.csv,ap_lo,False,False,True
+Cardiovascular_Disease_dataset__,cardio_train.csv,cardio,True,True,True
+Cardiovascular_Disease_dataset__,cardio_train.csv,cholesterol,True,True,True
+Cardiovascular_Disease_dataset__,cardio_train.csv,gender,True,True,True
+Cardiovascular_Disease_dataset__,cardio_train.csv,gluc,True,True,True
+Cardiovascular_Disease_dataset__,cardio_train.csv,height,False,False,True
+Cardiovascular_Disease_dataset__,cardio_train.csv,id,False,False,True
+Cardiovascular_Disease_dataset__,cardio_train.csv,smoke,True,True,True
+Cardiovascular_Disease_dataset__,cardio_train.csv,weight,False,False,True
+COMPAS_Recidivism_Racial_Bias,compas-scores-raw.csv,Agency_Text,True,True,True
+COMPAS_Recidivism_Racial_Bias,compas-scores-raw.csv,AssessmentID,True,True,True
+COMPAS_Recidivism_Racial_Bias,compas-scores-raw.csv,AssessmentReason,True,True,True
+COMPAS_Recidivism_Racial_Bias,compas-scores-raw.csv,AssessmentType,True,True,True
+COMPAS_Recidivism_Racial_Bias,compas-scores-raw.csv,Case_ID,True,True,True
+COMPAS_Recidivism_Racial_Bias,compas-scores-raw.csv,CustodyStatus,True,True,True
+COMPAS_Recidivism_Racial_Bias,compas-scores-raw.csv,DateOfBirth,False,False,True
+COMPAS_Recidivism_Racial_Bias,compas-scores-raw.csv,DecileScore,True,False,False
+COMPAS_Recidivism_Racial_Bias,compas-scores-raw.csv,DisplayText,True,True,True
+COMPAS_Recidivism_Racial_Bias,compas-scores-raw.csv,Ethnic_Code_Text,True,True,True
+COMPAS_Recidivism_Racial_Bias,compas-scores-raw.csv,FirstName,True,True,True
+COMPAS_Recidivism_Racial_Bias,compas-scores-raw.csv,IsCompleted,True,True,True
+COMPAS_Recidivism_Racial_Bias,compas-scores-raw.csv,IsDeleted,True,True,True
+COMPAS_Recidivism_Racial_Bias,compas-scores-raw.csv,Language,True,True,True
+COMPAS_Recidivism_Racial_Bias,compas-scores-raw.csv,LastName,True,True,True
+COMPAS_Recidivism_Racial_Bias,compas-scores-raw.csv,LegalStatus,True,True,True
+COMPAS_Recidivism_Racial_Bias,compas-scores-raw.csv,MaritalStatus,True,True,True
+COMPAS_Recidivism_Racial_Bias,compas-scores-raw.csv,MiddleName,True,True,True
+COMPAS_Recidivism_Racial_Bias,compas-scores-raw.csv,Person_ID,True,True,True
+COMPAS_Recidivism_Racial_Bias,compas-scores-raw.csv,RawScore,False,False,True
+COMPAS_Recidivism_Racial_Bias,compas-scores-raw.csv,RecSupervisionLevel,True,True,True
+COMPAS_Recidivism_Racial_Bias,compas-scores-raw.csv,RecSupervisionLevelText,True,True,True
+COMPAS_Recidivism_Racial_Bias,compas-scores-raw.csv,ScaleSet,True,True,True
+COMPAS_Recidivism_Racial_Bias,compas-scores-raw.csv,ScaleSet_ID,True,True,True
+COMPAS_Recidivism_Racial_Bias,compas-scores-raw.csv,Scale_ID,True,True,True
+COMPAS_Recidivism_Racial_Bias,compas-scores-raw.csv,ScoreText,True,True,True
+COMPAS_Recidivism_Racial_Bias,compas-scores-raw.csv,Screening_Date,False,False,True
+COMPAS_Recidivism_Racial_Bias,compas-scores-raw.csv,Sex_Code_Text,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,age,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,age_cat,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,c_arrest_date,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,c_case_number,True,False,False
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,c_charge_degree,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,c_charge_desc,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,c_days_from_compas,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,c_jail_in,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,c_jail_out,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,c_offense_date,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,compas_screening_date,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,days_b_screening_arrest,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,decile_score,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,dob,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,end,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,event,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,first,True,False,False
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,id,True,False,False
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,in_custody,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,is_recid,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,is_violent_recid,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,juv_fel_count,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,juv_misd_count,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,juv_other_count,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,last,True,False,False
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,name,True,False,False
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,out_custody,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,priors_count,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,r_case_number,True,False,False
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,r_charge_degree,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,r_charge_desc,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,r_days_from_arrest,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,r_jail_in,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,r_jail_out,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,r_offense_date,True,False,False
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,race,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,score_text,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,screening_date,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,sex,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,start,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,type_of_assessment,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,v_decile_score,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,v_score_text,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,v_screening_date,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,v_type_of_assessment,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,violent_recid,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,vr_case_number,True,False,False
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,vr_charge_degree,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,vr_charge_desc,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed.csv,vr_offense_date,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,age,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,age_cat,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,c_charge_degree,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,c_charge_desc,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,c_days_from_compas,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,c_jail_in,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,c_jail_out,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,days_b_screening_arrest,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,decile_score,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,dob,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,event,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,first,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,id,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,is_recid,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,is_violent_recid,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,juv_fel_count,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,juv_misd_count,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,juv_other_count,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,last,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,name,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,priors_count,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,r_charge_degree,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,r_charge_desc,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,r_days_from_arrest,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,r_jail_in,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,r_offense_date,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,race,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,score_text,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,screening_date,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,sex,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,type_of_assessment,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,v_decile_score,False,False,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,v_score_text,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,v_type_of_assessment,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,violent_recid,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,vr_charge_degree,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,vr_charge_desc,True,True,True
+COMPAS_Recidivism_Racial_Bias,cox-violent-parsed_filt.csv,vr_offense_date,False,False,True
+COMPAS_Recidivism_Racial_Bias,propublica_data_for_fairml.csv,African_American,True,True,True
+COMPAS_Recidivism_Racial_Bias,propublica_data_for_fairml.csv,Age_Above_FourtyFive,True,True,True
+COMPAS_Recidivism_Racial_Bias,propublica_data_for_fairml.csv,Age_Below_TwentyFive,True,True,True
+COMPAS_Recidivism_Racial_Bias,propublica_data_for_fairml.csv,Asian,True,True,True
+COMPAS_Recidivism_Racial_Bias,propublica_data_for_fairml.csv,Female,True,True,True
+COMPAS_Recidivism_Racial_Bias,propublica_data_for_fairml.csv,Hispanic,True,True,True
+COMPAS_Recidivism_Racial_Bias,propublica_data_for_fairml.csv,Misdemeanor,True,True,True
+COMPAS_Recidivism_Racial_Bias,propublica_data_for_fairml.csv,Native_American,True,True,True
+COMPAS_Recidivism_Racial_Bias,propublica_data_for_fairml.csv,Number_of_Priors,False,False,True
+COMPAS_Recidivism_Racial_Bias,propublica_data_for_fairml.csv,Other,True,True,True
+COMPAS_Recidivism_Racial_Bias,propublica_data_for_fairml.csv,Two_yr_Recidivism,True,True,True
+COMPAS_Recidivism_Racial_Bias,propublica_data_for_fairml.csv,score_factor,False,False,True
+Computer_Games_Dataset_,computer_games.csv,Date Released,False,False,True
+Computer_Games_Dataset_,computer_games.csv,Developer,True,True,True
+Computer_Games_Dataset_,computer_games.csv,Genre,True,True,True
+Computer_Games_Dataset_,computer_games.csv,Name,False,True,False
+Computer_Games_Dataset_,computer_games.csv,Operating System,True,True,True
+Computer_Games_Dataset_,computer_games.csv,Producer,True,True,True
+Connecticut_inmates_awaiting_trial_,Accused_Pre-Trial_Inmates_in_Correctional_Facilities.csv,AGE,False,False,True
+Connecticut_inmates_awaiting_trial_,Accused_Pre-Trial_Inmates_in_Correctional_Facilities.csv,BOND AMOUNT,False,False,True
+Connecticut_inmates_awaiting_trial_,Accused_Pre-Trial_Inmates_in_Correctional_Facilities.csv,DETAINER,True,True,True
+Connecticut_inmates_awaiting_trial_,Accused_Pre-Trial_Inmates_in_Correctional_Facilities.csv,DOWNLOAD DATE,False,False,True
+Connecticut_inmates_awaiting_trial_,Accused_Pre-Trial_Inmates_in_Correctional_Facilities.csv,FACILITY,True,True,True
+Connecticut_inmates_awaiting_trial_,Accused_Pre-Trial_Inmates_in_Correctional_Facilities.csv,GENDER,True,True,True
+Connecticut_inmates_awaiting_trial_,Accused_Pre-Trial_Inmates_in_Correctional_Facilities.csv,IDENTIFIER,False,False,True
+Connecticut_inmates_awaiting_trial_,Accused_Pre-Trial_Inmates_in_Correctional_Facilities.csv,LATEST ADMISSION DATE,False,False,True
+Connecticut_inmates_awaiting_trial_,Accused_Pre-Trial_Inmates_in_Correctional_Facilities.csv,OFFENSE,True,True,True
+Connecticut_inmates_awaiting_trial_,Accused_Pre-Trial_Inmates_in_Correctional_Facilities.csv,RACE,True,True,True
+Credit-scoring_data,data_test.csv,Age,False,False,True
+Credit-scoring_data,data_test.csv,Changed_phone_number,True,True,True
+Credit-scoring_data,data_test.csv,Day_of_birth,True,True,True
+Credit-scoring_data,data_test.csv,Field,True,True,True
+Credit-scoring_data,data_test.csv,Has_Credit,True,True,True
+Credit-scoring_data,data_test.csv,INPS_mln_sum,False,False,True
+Credit-scoring_data,data_test.csv,INPS_yes_no,True,True,True
+Credit-scoring_data,data_test.csv,Language,True,True,True
+Credit-scoring_data,data_test.csv,Linked_cards,False,False,True
+Credit-scoring_data,data_test.csv,Marital,True,True,True
+Credit-scoring_data,data_test.csv,Month_of_birth,True,True,True
+Credit-scoring_data,data_test.csv,Number_of_credits,False,False,True
+Credit-scoring_data,data_test.csv,Region,True,True,True
+Credit-scoring_data,data_test.csv,Score_class,True,True,True
+Credit-scoring_data,data_test.csv,Score_level,True,True,True
+Credit-scoring_data,data_test.csv,Score_point,False,False,True
+Credit-scoring_data,data_test.csv,Sex,True,True,True
+Credit-scoring_data,data_test.csv,label,True,True,True
+Credit-scoring_data,data_train.csv,Age,False,False,True
+Credit-scoring_data,data_train.csv,Changed_phone_number,True,True,True
+Credit-scoring_data,data_train.csv,Day_of_birth,True,True,True
+Credit-scoring_data,data_train.csv,Field,True,True,True
+Credit-scoring_data,data_train.csv,Has_Credit,True,True,True
+Credit-scoring_data,data_train.csv,INPS_mln_sum,False,False,True
+Credit-scoring_data,data_train.csv,INPS_yes_no,True,True,True
+Credit-scoring_data,data_train.csv,Language,True,True,True
+Credit-scoring_data,data_train.csv,Linked_cards,False,False,True
+Credit-scoring_data,data_train.csv,Marital,True,True,True
+Credit-scoring_data,data_train.csv,Month_of_birth,True,True,True
+Credit-scoring_data,data_train.csv,Number_of_credits,False,False,True
+Credit-scoring_data,data_train.csv,Region,True,True,True
+Credit-scoring_data,data_train.csv,Score_class,True,True,True
+Credit-scoring_data,data_train.csv,Score_level,True,True,True
+Credit-scoring_data,data_train.csv,Score_point,False,False,True
+Credit-scoring_data,data_train.csv,Sex,True,True,True
+Credit-scoring_data,data_train.csv,label,True,True,True
+Credit_Score__,credit_scoring.csv,Age,False,False,True
+Credit_Score__,credit_scoring.csv,Credit Utilization Ratio,False,False,True
+Credit_Score__,credit_scoring.csv,Education Level,True,True,True
+Credit_Score__,credit_scoring.csv,Employment Status,True,True,True
+Credit_Score__,credit_scoring.csv,Gender,True,True,True
+Credit_Score__,credit_scoring.csv,Interest Rate,False,False,True
+Credit_Score__,credit_scoring.csv,Loan Amount,False,False,True
+Credit_Score__,credit_scoring.csv,Loan Term,True,True,True
+Credit_Score__,credit_scoring.csv,Marital Status,True,True,True
+Credit_Score__,credit_scoring.csv,Number of Credit Accounts,False,False,True
+Credit_Score__,credit_scoring.csv,Payment History,False,False,True
+Credit_Score__,credit_scoring.csv,Type of Loan,True,True,True
+Crime_&_Safety_Dataset__,crime_safety_dataset.csv,city,True,True,True
+Crime_&_Safety_Dataset__,crime_safety_dataset.csv,crime_type,True,True,True
+Crime_&_Safety_Dataset__,crime_safety_dataset.csv,date,False,False,True
+Crime_&_Safety_Dataset__,crime_safety_dataset.csv,id,False,False,True
+Crime_&_Safety_Dataset__,crime_safety_dataset.csv,location_description,False,False,True
+Crime_&_Safety_Dataset__,crime_safety_dataset.csv,state,True,True,True
+Crime_&_Safety_Dataset__,crime_safety_dataset.csv,time,False,False,True
+Crime_&_Safety_Dataset__,crime_safety_dataset.csv,victim_age,False,False,True
+Crime_&_Safety_Dataset__,crime_safety_dataset.csv,victim_gender,True,True,True
+Crime_&_Safety_Dataset__,crime_safety_dataset.csv,victim_race,True,True,True
+Crime_Data__,crime_data.csv,Category,True,True,True
+Crime_Data__,crime_data.csv,Disposition,True,True,True
+Crime_Data__,crime_data.csv,OffenderStatus,True,True,True
+Crime_Data__,crime_data.csv,Offender_Age,False,False,True
+Crime_Data__,crime_data.csv,Offender_Gender,True,True,True
+Crime_Data__,crime_data.csv,Offender_Race,True,True,True
+Crime_Data__,crime_data.csv,PersonType,True,True,True
+Crime_Data__,crime_data.csv,Report Type,True,True,True
+Crime_Data__,crime_data.csv,Victim_Age,False,False,True
+Crime_Data__,crime_data.csv,Victim_Fatal_Status,True,True,True
+Crime_Data__,crime_data.csv,Victim_Gender,True,True,True
+Crime_Data__,crime_data.csv,Victim_Race,True,True,True
+Criminal_Justice_Dataset__,Criminal_Justice_Dataset.csv,Age,False,False,True
+Criminal_Justice_Dataset__,Criminal_Justice_Dataset.csv,Arraignment_Decision,True,True,True
+Criminal_Justice_Dataset__,Criminal_Justice_Dataset.csv,Charge_Type,True,True,True
+Criminal_Justice_Dataset__,Criminal_Justice_Dataset.csv,Court_Outcome,True,True,True
+Criminal_Justice_Dataset__,Criminal_Justice_Dataset.csv,Gender,True,True,True
+Criminal_Justice_Dataset__,Criminal_Justice_Dataset.csv,Offense_Severity,True,True,True
+Criminal_Justice_Dataset__,Criminal_Justice_Dataset.csv,Prior_Arrests,False,False,True
+Criminal_Justice_Dataset__,Criminal_Justice_Dataset.csv,Prior_Convictions,False,False,True
+Customer_Shopping_Behavior_Dataset__,shopping_behavior_updated.csv,Age,False,False,True
+Customer_Shopping_Behavior_Dataset__,shopping_behavior_updated.csv,Category,True,True,True
+Customer_Shopping_Behavior_Dataset__,shopping_behavior_updated.csv,Color,True,True,True
+Customer_Shopping_Behavior_Dataset__,shopping_behavior_updated.csv,Customer ID,False,False,True
+Customer_Shopping_Behavior_Dataset__,shopping_behavior_updated.csv,Discount Applied,True,True,True
+Customer_Shopping_Behavior_Dataset__,shopping_behavior_updated.csv,Frequency of Purchases,False,False,True
+Customer_Shopping_Behavior_Dataset__,shopping_behavior_updated.csv,Gender,True,True,True
+Customer_Shopping_Behavior_Dataset__,shopping_behavior_updated.csv,Item Purchased,True,True,True
+Customer_Shopping_Behavior_Dataset__,shopping_behavior_updated.csv,Location,True,True,True
+Customer_Shopping_Behavior_Dataset__,shopping_behavior_updated.csv,Payment Method,True,True,True
+Customer_Shopping_Behavior_Dataset__,shopping_behavior_updated.csv,Previous Purchases,False,False,True
+Customer_Shopping_Behavior_Dataset__,shopping_behavior_updated.csv,Promo Code Used,True,True,True
+Customer_Shopping_Behavior_Dataset__,shopping_behavior_updated.csv,Purchase Amount (USD),True,False,False
+Customer_Shopping_Behavior_Dataset__,shopping_behavior_updated.csv,Review Rating,False,False,True
+Customer_Shopping_Behavior_Dataset__,shopping_behavior_updated.csv,Season,True,True,True
+Customer_Shopping_Behavior_Dataset__,shopping_behavior_updated.csv,Shipping Type,True,True,True
+Customer_Shopping_Behavior_Dataset__,shopping_behavior_updated.csv,Size,True,True,True
+Customer_Shopping_Behavior_Dataset__,shopping_behavior_updated.csv,Subscription Status,True,True,True
+data-science-job-salaries_,default,default/Unnamed__0,False,False,True
+data-science-job-salaries_,default,default/company_location,True,True,True
+data-science-job-salaries_,default,default/company_size,False,True,False
+data-science-job-salaries_,default,default/employee_residence,True,True,True
+data-science-job-salaries_,default,default/employment_type,True,True,True
+data-science-job-salaries_,default,default/experience_level,True,True,True
+data-science-job-salaries_,default,default/job_title,True,True,True
+data-science-job-salaries_,default,default/remote_ratio,False,True,False
+data-science-job-salaries_,default,default/salary,False,False,True
+data-science-job-salaries_,default,default/salary_currency,True,True,True
+data-science-job-salaries_,default,default/salary_in_usd,False,False,True
+data-science-job-salaries_,default,default/split,False,True,False
+data-science-job-salaries_,default,default/work_year,False,True,False
+data-science-job-salaries_,default_splits,split_name,False,True,False
+Disease_Diagnosis_Dataset__,disease_diagnosis.csv,Age,False,False,True
+Disease_Diagnosis_Dataset__,disease_diagnosis.csv,Blood_Pressure_mmHg,False,False,True
+Disease_Diagnosis_Dataset__,disease_diagnosis.csv,Body_Temperature_C,False,False,True
+Disease_Diagnosis_Dataset__,disease_diagnosis.csv,Diagnosis,True,True,True
+Disease_Diagnosis_Dataset__,disease_diagnosis.csv,Gender,True,True,True
+Disease_Diagnosis_Dataset__,disease_diagnosis.csv,Heart_Rate_bpm,False,False,True
+Disease_Diagnosis_Dataset__,disease_diagnosis.csv,Oxygen_Saturation_%,False,False,True
+Disease_Diagnosis_Dataset__,disease_diagnosis.csv,Patient_ID,False,True,False
+Disease_Diagnosis_Dataset__,disease_diagnosis.csv,Severity,True,True,True
+Disease_Diagnosis_Dataset__,disease_diagnosis.csv,Symptom_1,True,True,True
+Disease_Diagnosis_Dataset__,disease_diagnosis.csv,Symptom_2,True,True,True
+Disease_Diagnosis_Dataset__,disease_diagnosis.csv,Symptom_3,True,True,True
+Disease_Diagnosis_Dataset__,disease_diagnosis.csv,Treatment_Plan,True,True,True
+Disease_Risk_Prediction_Dataset__,synthetic_disease_risk_dataset.csv,Age,False,False,True
+Disease_Risk_Prediction_Dataset__,synthetic_disease_risk_dataset.csv,Alcohol_Consumption,True,True,True
+Disease_Risk_Prediction_Dataset__,synthetic_disease_risk_dataset.csv,BMI,False,False,True
+Disease_Risk_Prediction_Dataset__,synthetic_disease_risk_dataset.csv,Blood_Pressure_Diastolic,False,False,True
+Disease_Risk_Prediction_Dataset__,synthetic_disease_risk_dataset.csv,Blood_Pressure_Systolic,False,False,True
+Disease_Risk_Prediction_Dataset__,synthetic_disease_risk_dataset.csv,Cholesterol_Level,False,False,True
+Disease_Risk_Prediction_Dataset__,synthetic_disease_risk_dataset.csv,Disease_Risk,True,True,True
+Disease_Risk_Prediction_Dataset__,synthetic_disease_risk_dataset.csv,Family_History,True,True,True
+Disease_Risk_Prediction_Dataset__,synthetic_disease_risk_dataset.csv,Gender,True,True,True
+Disease_Risk_Prediction_Dataset__,synthetic_disease_risk_dataset.csv,Genetic_Risk_Score,False,False,True
+Disease_Risk_Prediction_Dataset__,synthetic_disease_risk_dataset.csv,Glucose_Level,False,False,True
+Disease_Risk_Prediction_Dataset__,synthetic_disease_risk_dataset.csv,Patient_ID,False,False,True
+Disease_Risk_Prediction_Dataset__,synthetic_disease_risk_dataset.csv,Physical_Activity_Level,True,True,True
+Disease_Risk_Prediction_Dataset__,synthetic_disease_risk_dataset.csv,Previous_Diagnosis,True,True,True
+Disease_Risk_Prediction_Dataset__,synthetic_disease_risk_dataset.csv,Smoking_Status,True,True,True
+Ecommerce_Consumer_Behavior_Analysis_Data__,Ecommerce_Consumer_Behavior_Analysis_Data.csv,Age,False,False,True
+Ecommerce_Consumer_Behavior_Analysis_Data__,Ecommerce_Consumer_Behavior_Analysis_Data.csv,Brand_Loyalty,True,True,True
+Ecommerce_Consumer_Behavior_Analysis_Data__,Ecommerce_Consumer_Behavior_Analysis_Data.csv,Customer_ID,False,False,True
+Ecommerce_Consumer_Behavior_Analysis_Data__,Ecommerce_Consumer_Behavior_Analysis_Data.csv,Customer_Loyalty_Program_Member,True,True,True
+Ecommerce_Consumer_Behavior_Analysis_Data__,Ecommerce_Consumer_Behavior_Analysis_Data.csv,Customer_Satisfaction,True,True,True
+Ecommerce_Consumer_Behavior_Analysis_Data__,Ecommerce_Consumer_Behavior_Analysis_Data.csv,Device_Used_for_Shopping,True,True,True
+Ecommerce_Consumer_Behavior_Analysis_Data__,Ecommerce_Consumer_Behavior_Analysis_Data.csv,Discount_Sensitivity,True,True,True
+Ecommerce_Consumer_Behavior_Analysis_Data__,Ecommerce_Consumer_Behavior_Analysis_Data.csv,Discount_Used,True,True,True
+Ecommerce_Consumer_Behavior_Analysis_Data__,Ecommerce_Consumer_Behavior_Analysis_Data.csv,Education_Level,True,True,True
+Ecommerce_Consumer_Behavior_Analysis_Data__,Ecommerce_Consumer_Behavior_Analysis_Data.csv,Engagement_with_Ads,True,True,True
+Ecommerce_Consumer_Behavior_Analysis_Data__,Ecommerce_Consumer_Behavior_Analysis_Data.csv,Frequency_of_Purchase,False,False,True
+Ecommerce_Consumer_Behavior_Analysis_Data__,Ecommerce_Consumer_Behavior_Analysis_Data.csv,Gender,True,True,True
+Ecommerce_Consumer_Behavior_Analysis_Data__,Ecommerce_Consumer_Behavior_Analysis_Data.csv,Income_Level,True,True,True
+Ecommerce_Consumer_Behavior_Analysis_Data__,Ecommerce_Consumer_Behavior_Analysis_Data.csv,Location,True,True,True
+Ecommerce_Consumer_Behavior_Analysis_Data__,Ecommerce_Consumer_Behavior_Analysis_Data.csv,Marital_Status,True,True,True
+Ecommerce_Consumer_Behavior_Analysis_Data__,Ecommerce_Consumer_Behavior_Analysis_Data.csv,Occupation,True,True,True
+Ecommerce_Consumer_Behavior_Analysis_Data__,Ecommerce_Consumer_Behavior_Analysis_Data.csv,Payment_Method,True,True,True
+Ecommerce_Consumer_Behavior_Analysis_Data__,Ecommerce_Consumer_Behavior_Analysis_Data.csv,Product_Rating,True,True,True
+Ecommerce_Consumer_Behavior_Analysis_Data__,Ecommerce_Consumer_Behavior_Analysis_Data.csv,Purchase_Amount,False,False,True
+Ecommerce_Consumer_Behavior_Analysis_Data__,Ecommerce_Consumer_Behavior_Analysis_Data.csv,Purchase_Category,True,True,True
+Ecommerce_Consumer_Behavior_Analysis_Data__,Ecommerce_Consumer_Behavior_Analysis_Data.csv,Purchase_Channel,True,True,True
+Ecommerce_Consumer_Behavior_Analysis_Data__,Ecommerce_Consumer_Behavior_Analysis_Data.csv,Purchase_Intent,True,True,True
+Ecommerce_Consumer_Behavior_Analysis_Data__,Ecommerce_Consumer_Behavior_Analysis_Data.csv,Return_Rate,False,False,True
+Ecommerce_Consumer_Behavior_Analysis_Data__,Ecommerce_Consumer_Behavior_Analysis_Data.csv,Shipping_Preference,True,True,True
+Ecommerce_Consumer_Behavior_Analysis_Data__,Ecommerce_Consumer_Behavior_Analysis_Data.csv,Social_Media_Influence,True,True,True
+Ecommerce_Consumer_Behavior_Analysis_Data__,Ecommerce_Consumer_Behavior_Analysis_Data.csv,Time_Spent_on_Product_Research(hours),False,False,True
+Ecommerce_Consumer_Behavior_Analysis_Data__,Ecommerce_Consumer_Behavior_Analysis_Data.csv,Time_of_Purchase,False,False,True
+Ecommerce_Consumer_Behavior_Analysis_Data__,Ecommerce_Consumer_Behavior_Analysis_Data.csv,Time_to_Decision,False,False,True
+Employee_Attrition_Classification_Dataset,test.csv,Age,False,False,True
+Employee_Attrition_Classification_Dataset,test.csv,Attrition,True,True,True
+Employee_Attrition_Classification_Dataset,test.csv,Company Reputation,True,True,True
+Employee_Attrition_Classification_Dataset,test.csv,Company Size,True,True,True
+Employee_Attrition_Classification_Dataset,test.csv,Company Tenure,False,False,True
+Employee_Attrition_Classification_Dataset,test.csv,Distance from Home,False,False,True
+Employee_Attrition_Classification_Dataset,test.csv,Education Level,True,True,True
+Employee_Attrition_Classification_Dataset,test.csv,Employee ID,False,False,True
+Employee_Attrition_Classification_Dataset,test.csv,Employee Recognition,True,True,True
+Employee_Attrition_Classification_Dataset,test.csv,Gender,True,True,True
+Employee_Attrition_Classification_Dataset,test.csv,Innovation Opportunities,True,True,True
+Employee_Attrition_Classification_Dataset,test.csv,Job Level,True,True,True
+Employee_Attrition_Classification_Dataset,test.csv,Job Role,True,True,True
+Employee_Attrition_Classification_Dataset,test.csv,Job Satisfaction,True,True,True
+Employee_Attrition_Classification_Dataset,test.csv,Leadership Opportunities,True,True,True
+Employee_Attrition_Classification_Dataset,test.csv,Marital Status,True,True,True
+Employee_Attrition_Classification_Dataset,test.csv,Monthly Income,False,False,True
+Employee_Attrition_Classification_Dataset,test.csv,Number of Dependents,False,False,True
+Employee_Attrition_Classification_Dataset,test.csv,Number of Promotions,False,False,True
+Employee_Attrition_Classification_Dataset,test.csv,Overtime,False,True,False
+Employee_Attrition_Classification_Dataset,test.csv,Performance Rating,True,True,True
+Employee_Attrition_Classification_Dataset,test.csv,Remote Work,True,True,True
+Employee_Attrition_Classification_Dataset,test.csv,Work-Life Balance,True,True,True
+Employee_Attrition_Classification_Dataset,test.csv,Years at Company,False,False,True
+Employee_Attrition_Classification_Dataset,train.csv,Age,False,False,True
+Employee_Attrition_Classification_Dataset,train.csv,Attrition,True,True,True
+Employee_Attrition_Classification_Dataset,train.csv,Company Reputation,True,True,True
+Employee_Attrition_Classification_Dataset,train.csv,Company Size,True,True,True
+Employee_Attrition_Classification_Dataset,train.csv,Company Tenure,False,False,True
+Employee_Attrition_Classification_Dataset,train.csv,Distance from Home,False,False,True
+Employee_Attrition_Classification_Dataset,train.csv,Education Level,True,True,True
+Employee_Attrition_Classification_Dataset,train.csv,Employee ID,False,False,True
+Employee_Attrition_Classification_Dataset,train.csv,Employee Recognition,True,True,True
+Employee_Attrition_Classification_Dataset,train.csv,Gender,True,True,True
+Employee_Attrition_Classification_Dataset,train.csv,Innovation Opportunities,True,True,True
+Employee_Attrition_Classification_Dataset,train.csv,Job Level,True,True,True
+Employee_Attrition_Classification_Dataset,train.csv,Job Role,True,True,True
+Employee_Attrition_Classification_Dataset,train.csv,Job Satisfaction,True,True,True
+Employee_Attrition_Classification_Dataset,train.csv,Leadership Opportunities,True,True,True
+Employee_Attrition_Classification_Dataset,train.csv,Marital Status,True,True,True
+Employee_Attrition_Classification_Dataset,train.csv,Monthly Income,False,False,True
+Employee_Attrition_Classification_Dataset,train.csv,Number of Dependents,False,False,True
+Employee_Attrition_Classification_Dataset,train.csv,Number of Promotions,False,False,True
+Employee_Attrition_Classification_Dataset,train.csv,Overtime,False,True,False
+Employee_Attrition_Classification_Dataset,train.csv,Performance Rating,True,True,True
+Employee_Attrition_Classification_Dataset,train.csv,Remote Work,True,True,True
+Employee_Attrition_Classification_Dataset,train.csv,Work-Life Balance,True,True,True
+Employee_Attrition_Classification_Dataset,train.csv,Years at Company,False,False,True
+Employee_Data_,Employee 1000x.csv,Date of birth,False,False,True
+Employee_Data_,Employee 1000x.csv,Email,False,True,False
+Employee_Data_,Employee 1000x.csv,First Name,False,True,False
+Employee_Data_,Employee 1000x.csv,Index,False,False,True
+Employee_Data_,Employee 1000x.csv,Job Title,True,True,True
+Employee_Data_,Employee 1000x.csv,Last Name,False,True,False
+Employee_Data_,Employee 1000x.csv,Phone,False,True,False
+Employee_Data_,Employee 1000x.csv,Sex,True,True,True
+Employee_dataset__,Employee.csv,Age,False,False,True
+Employee_dataset__,Employee.csv,City,True,True,True
+Employee_dataset__,Employee.csv,Education,True,True,True
+Employee_dataset__,Employee.csv,EverBenched,True,True,True
+Employee_dataset__,Employee.csv,ExperienceInCurrentDomain,False,False,True
+Employee_dataset__,Employee.csv,Gender,True,True,True
+Employee_dataset__,Employee.csv,JoiningYear,False,True,False
+Employee_dataset__,Employee.csv,LeaveOrNot,True,True,True
+Employee_dataset__,Employee.csv,PaymentTier,True,True,True
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,Age,False,False,True
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,Annual_HR_Feedback_Satisfaction_Score,False,False,True
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,Annual_Income,False,False,True
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,Attrition_Date,False,False,True
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,Attrition_Reason,False,True,False
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,Attrition_Status,True,True,True
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,City,True,True,True
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,Date_of_Joining,False,False,True
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,Department,True,True,True
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,Distance_from_Home,False,False,True
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,Education_Field,True,True,True
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,Education_Level,True,True,True
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,Employee_Cost_to_Company,False,False,True
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,Employee_ID,False,True,False
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,Employee_Name,False,True,False
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,Employment_Type,True,True,True
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,Environment_Satisfaction,False,False,True
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,Gender,True,True,True
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,Hourly_Rate,False,False,True
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,Job_Role,True,True,True
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,Last_3_Year_Rating,False,False,True
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,Marital_Status,True,True,True
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,Monthly_Income,False,False,True
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,New_Hires_Joining_Month,True,True,True
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,Onboarding_Status,True,True,True
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,Performance_Score,False,False,True
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,Position,True,True,True
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,State,True,True,True
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,Work_Location,True,True,True
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,Yearly_Total_Training_Hours,False,False,True
+Employee_Dataset_Retail_,Employee_Dataset_Retail.csv,Years_at_Company,False,False,True
+Employee_Performance_and_Salary_Dataset,Employe_Performance_dataset.csv,Age,False,False,True
+Employee_Performance_and_Salary_Dataset,Employe_Performance_dataset.csv,Department,True,True,True
+Employee_Performance_and_Salary_Dataset,Employe_Performance_dataset.csv,Experience,False,False,True
+Employee_Performance_and_Salary_Dataset,Employe_Performance_dataset.csv,Gender,True,True,True
+Employee_Performance_and_Salary_Dataset,Employe_Performance_dataset.csv,ID,False,False,True
+Employee_Performance_and_Salary_Dataset,Employe_Performance_dataset.csv,Joining Date,False,False,True
+Employee_Performance_and_Salary_Dataset,Employe_Performance_dataset.csv,Location,True,True,True
+Employee_Performance_and_Salary_Dataset,Employe_Performance_dataset.csv,Name,False,False,True
+Employee_Performance_and_Salary_Dataset,Employe_Performance_dataset.csv,Performance Score,False,False,True
+Employee_Performance_and_Salary_Dataset,Employe_Performance_dataset.csv,Salary,False,False,True
+Employee_Performance_and_Salary_Dataset,Employe_Performance_dataset.csv,Session,True,True,True
+Employee_Performance_and_Salary_Dataset,Employe_Performance_dataset.csv,Status,False,True,False
+Employee_Records_Dataset_,employee_records.csv,Age,False,False,True
+Employee_Records_Dataset_,employee_records.csv,Country,True,True,True
+Employee_Records_Dataset_,employee_records.csv,Department,True,True,True
+Employee_Records_Dataset_,employee_records.csv,Employee_ID,False,False,True
+Employee_Records_Dataset_,employee_records.csv,Employee_Name,False,False,True
+Employee_Records_Dataset_,employee_records.csv,Joining_Date,False,False,True
+Employee_Records_Dataset_,employee_records.csv,Position,True,True,True
+Employee_Records_Dataset_,employee_records.csv,Salary,False,False,True
+Employee_Salaries_Datatset__,Salary.csv,Age,False,False,True
+Employee_Salaries_Datatset__,Salary.csv,Gender,True,True,True
+Employee_Salaries_Datatset__,Salary.csv,PhD,True,True,True
+Employee_Salaries_Datatset__,Salary.csv,Salary,False,False,True
+Employee_Salary_Dataset,employee_salary_dataset.csv,Age,False,False,True
+Employee_Salary_Dataset,employee_salary_dataset.csv,City,True,True,True
+Employee_Salary_Dataset,employee_salary_dataset.csv,Department,True,True,True
+Employee_Salary_Dataset,employee_salary_dataset.csv,Education_Level,True,True,True
+Employee_Salary_Dataset,employee_salary_dataset.csv,EmployeeID,False,True,False
+Employee_Salary_Dataset,employee_salary_dataset.csv,Experience_Years,False,False,True
+Employee_Salary_Dataset,employee_salary_dataset.csv,Gender,True,True,True
+Employee_Salary_Dataset,employee_salary_dataset.csv,Monthly_Salary,False,False,True
+Employee_Salary_Dataset,employee_salary_dataset.csv,Name,False,True,False
+Employee_Sample_Data__,Employee Sample Data.csv,Age,False,False,True
+Employee_Sample_Data__,Employee Sample Data.csv,Annual Salary,False,False,True
+Employee_Sample_Data__,Employee Sample Data.csv,Bonus %,False,False,True
+Employee_Sample_Data__,Employee Sample Data.csv,Business Unit,True,True,True
+Employee_Sample_Data__,Employee Sample Data.csv,City,True,True,True
+Employee_Sample_Data__,Employee Sample Data.csv,Country,True,True,True
+Employee_Sample_Data__,Employee Sample Data.csv,Department,True,True,True
+Employee_Sample_Data__,Employee Sample Data.csv,EEID,False,True,False
+Employee_Sample_Data__,Employee Sample Data.csv,Ethnicity,True,True,True
+Employee_Sample_Data__,Employee Sample Data.csv,Exit Date,False,False,True
+Employee_Sample_Data__,Employee Sample Data.csv,Full Name,False,True,False
+Employee_Sample_Data__,Employee Sample Data.csv,Gender,True,True,True
+Employee_Sample_Data__,Employee Sample Data.csv,Hire Date,False,False,True
+Employee_Sample_Data__,Employee Sample Data.csv,Job Title,False,True,False
+"Executions_in_the_United_States,_1976-2016_",database.csv,Age,False,False,True
+"Executions_in_the_United_States,_1976-2016_",database.csv,County,True,True,True
+"Executions_in_the_United_States,_1976-2016_",database.csv,Crime,True,True,True
+"Executions_in_the_United_States,_1976-2016_",database.csv,Date,False,False,True
+"Executions_in_the_United_States,_1976-2016_",database.csv,Federal,True,True,True
+"Executions_in_the_United_States,_1976-2016_",database.csv,Foreign National,True,True,True
+"Executions_in_the_United_States,_1976-2016_",database.csv,Juvenile,True,True,True
+"Executions_in_the_United_States,_1976-2016_",database.csv,Method,True,True,True
+"Executions_in_the_United_States,_1976-2016_",database.csv,Name,False,False,True
+"Executions_in_the_United_States,_1976-2016_",database.csv,Race,True,True,True
+"Executions_in_the_United_States,_1976-2016_",database.csv,Region,True,True,True
+"Executions_in_the_United_States,_1976-2016_",database.csv,Sex,True,True,True
+"Executions_in_the_United_States,_1976-2016_",database.csv,State,True,True,True
+"Executions_in_the_United_States,_1976-2016_",database.csv,Victim Count,False,False,True
+"Executions_in_the_United_States,_1976-2016_",database.csv,Victim Race,True,True,True
+"Executions_in_the_United_States,_1976-2016_",database.csv,Victim Sex,True,True,True
+"Executions_in_the_United_States,_1976-2016_",database.csv,Volunteer,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,@id,False,True,False
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,additional_information,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,age_max,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,age_min,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,age_range,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,aliases,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,aliases/0,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,aliases/1,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,aliases/2,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,aliases/3,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,aliases/4,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,aliases/5,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,aliases/6,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,aliases/7,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,aliases/8,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,build,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,caution,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,complexion,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,dates_of_birth_used,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,dates_of_birth_used/0,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,description,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,details,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,eyes,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,eyes_raw,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,field_offices,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,field_offices/0,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,files/0/name,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,files/0/url,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,files/1/name,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,files/1/url,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,hair,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,hair_raw,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,height_max,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,height_min,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/0/caption,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/0/large,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/0/original,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/0/thumb,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/1/caption,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/1/large,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/1/original,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/1/thumb,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/10/caption,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/10/large,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/10/original,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/10/thumb,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/2/caption,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/2/large,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/2/original,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/2/thumb,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/3/caption,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/3/large,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/3/original,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/3/thumb,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/4/caption,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/4/large,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/4/original,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/4/thumb,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/5/caption,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/5/large,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/5/original,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/5/thumb,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/6/caption,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/6/large,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/6/original,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/6/thumb,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/7/caption,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/7/large,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/7/original,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/7/thumb,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/8/caption,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/8/large,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/8/original,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/8/thumb,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/9/caption,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/9/large,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/9/original,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,images/9/thumb,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,languages,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,languages/0,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,languages/1,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,legat_names,False,True,False
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,locations,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,modified,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,nationality,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,ncic,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,occupations,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,occupations/0,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,occupations/1,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,occupations/2,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,path,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,person_classification,False,True,False
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,place_of_birth,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,possible_countries,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,possible_countries/0,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,possible_countries/1,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,possible_countries/2,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,possible_countries/3,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,possible_countries/4,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,possible_states,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,possible_states/0,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,possible_states/1,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,poster_classification,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,publication,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,race,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,race_raw,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,remarks,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,reward_max,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,reward_min,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,reward_text,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,scars_and_marks,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,sex,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,status,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,subjects/0,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,subjects/1,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,suspects,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,title,True,True,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,uid,False,True,False
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,url,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,warning_message,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,weight,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,weight_max,False,False,True
+FBI's_Most_Wanted_Criminals_Dataset__,FBI_data.csv,weight_min,False,False,True
+GeeksforGeeks_Articles_,articles.csv,author_id,True,True,True
+GeeksforGeeks_Articles_,articles.csv,category,True,True,True
+GeeksforGeeks_Articles_,articles.csv,last_updated,False,False,True
+GeeksforGeeks_Articles_,articles.csv,link,False,False,True
+GeeksforGeeks_Articles_,articles.csv,title,False,False,True
+german-credit-data_,default,default/Age,False,False,True
+german-credit-data_,default,default/Checking_account,True,True,True
+german-credit-data_,default,default/Credit_amount,False,False,True
+german-credit-data_,default,default/Duration,False,False,True
+german-credit-data_,default,default/Housing,True,True,True
+german-credit-data_,default,default/Job,True,True,True
+german-credit-data_,default,default/Purpose,True,True,True
+german-credit-data_,default,default/Risk,True,True,True
+german-credit-data_,default,default/Saving_accounts,True,True,True
+german-credit-data_,default,default/Sex,True,True,True
+german-credit-data_,default,default/split,False,True,False
+german-credit-data_,default_splits,split_name,False,True,False
+Glassdoor-_Analyze_Gender_Pay_Gap__,Glassdoor-Gender-Pay-Gap1.csv,Age,False,False,True
+Glassdoor-_Analyze_Gender_Pay_Gap__,Glassdoor-Gender-Pay-Gap1.csv,BB,False,False,True
+Glassdoor-_Analyze_Gender_Pay_Gap__,Glassdoor-Gender-Pay-Gap1.csv,BasePay,False,False,True
+Glassdoor-_Analyze_Gender_Pay_Gap__,Glassdoor-Gender-Pay-Gap1.csv,Bonus,False,False,True
+Glassdoor-_Analyze_Gender_Pay_Gap__,Glassdoor-Gender-Pay-Gap1.csv,Dept,True,True,True
+Glassdoor-_Analyze_Gender_Pay_Gap__,Glassdoor-Gender-Pay-Gap1.csv,Dismissal,True,True,True
+Glassdoor-_Analyze_Gender_Pay_Gap__,Glassdoor-Gender-Pay-Gap1.csv,Education,True,True,True
+Glassdoor-_Analyze_Gender_Pay_Gap__,Glassdoor-Gender-Pay-Gap1.csv,Gender,True,True,True
+Glassdoor-_Analyze_Gender_Pay_Gap__,Glassdoor-Gender-Pay-Gap1.csv,JobTitle,True,True,True
+Glassdoor-_Analyze_Gender_Pay_Gap__,Glassdoor-Gender-Pay-Gap1.csv,PerfEval,True,True,True
+Glassdoor-_Analyze_Gender_Pay_Gap__,Glassdoor-Gender-Pay-Gap1.csv,Seniority,True,False,False
+Greenhouse_Plant_Growth___,Greenhouse Plant Growth Metrics.csv,ACHP,False,False,True
+Greenhouse_Plant_Growth___,Greenhouse Plant Growth Metrics.csv,ADWR,False,False,True
+Greenhouse_Plant_Growth___,Greenhouse Plant Growth Metrics.csv,ADWV,False,False,True
+Greenhouse_Plant_Growth___,Greenhouse Plant Growth Metrics.csv,ALAP,False,False,True
+Greenhouse_Plant_Growth___,Greenhouse Plant Growth Metrics.csv,ANPL,False,False,True
+Greenhouse_Plant_Growth___,Greenhouse Plant Growth Metrics.csv,ARD,False,False,True
+Greenhouse_Plant_Growth___,Greenhouse Plant Growth Metrics.csv,ARL,False,False,True
+Greenhouse_Plant_Growth___,Greenhouse Plant Growth Metrics.csv,AWWGV,False,False,True
+Greenhouse_Plant_Growth___,Greenhouse Plant Growth Metrics.csv,AWWR,False,False,True
+Greenhouse_Plant_Growth___,Greenhouse Plant Growth Metrics.csv,Class,True,True,True
+Greenhouse_Plant_Growth___,Greenhouse Plant Growth Metrics.csv,PDMRG,False,False,True
+Greenhouse_Plant_Growth___,Greenhouse Plant Growth Metrics.csv,PDMVG,False,False,True
+Greenhouse_Plant_Growth___,Greenhouse Plant Growth Metrics.csv,PHR,False,False,True
+Greenhouse_Plant_Growth___,Greenhouse Plant Growth Metrics.csv,Random,True,True,True
+Hate_Crimes_,Hate_Crimes_20240707.csv,case_number,False,True,False
+Hate_Crimes_,Hate_Crimes_20240707.csv,date,False,False,True
+Hate_Crimes_,Hate_Crimes_20240707.csv,location_type,True,True,True
+Hate_Crimes_,Hate_Crimes_20240707.csv,motivation,True,True,True
+Hate_Crimes_,Hate_Crimes_20240707.csv,offender_gender,True,True,True
+Hate_Crimes_,Hate_Crimes_20240707.csv,offender_race,True,True,True
+Hate_Crimes_,Hate_Crimes_20240707.csv,offenders,False,False,True
+Hate_Crimes_,Hate_Crimes_20240707.csv,offense,True,True,True
+Hate_Crimes_,Hate_Crimes_20240707.csv,victim_gender,True,True,True
+Hate_Crimes_,Hate_Crimes_20240707.csv,victim_race,True,True,True
+Hate_Crimes_,Hate_Crimes_20240707.csv,victim_type,True,True,True
+Hate_Crimes_,Hate_Crimes_20240707.csv,victims,False,False,True
+Hate_Crimes_,Hate_Crimes_20240707.csv,weekday,True,True,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,Age,False,False,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,alcohol_consumption_per_week,False,False,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,bmi,False,False,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,cardiovascular_history,True,True,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,cholesterol_total,False,False,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,diabetes_risk_score,False,False,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,diabetes_stage,True,True,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,diagnosed_diabetes,True,True,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,diastolic_bp,False,False,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,diet_score,False,False,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,education_level,True,True,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,employment_status,True,True,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,ethnicity,True,True,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,family_history_diabetes,True,True,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,gender,True,True,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,glucose_fasting,False,False,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,glucose_postprandial,False,False,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,hba1c,False,False,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,hdl_cholesterol,False,False,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,heart_rate,False,False,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,hypertension_history,True,True,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,income_level,True,True,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,insulin_level,False,False,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,ldl_cholesterol,False,False,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,physical_activity_minutes_per_week,False,False,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,screen_time_hours_per_day,False,False,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,sleep_hours_per_day,False,False,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,smoking_status,True,True,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,systolic_bp,False,False,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,triglycerides,False,False,True
+Health__Lifestyle_Data_for_Diabetes_Prediction,Diabetes_and_LifeStyle_Dataset .csv,waist_to_hip_ratio,False,False,True
+healthcare_data.csv__,healthcare_data.csv,admission_date,False,False,True
+healthcare_data.csv__,healthcare_data.csv,age,False,False,True
+healthcare_data.csv__,healthcare_data.csv,bill_amount,False,False,True
+healthcare_data.csv__,healthcare_data.csv,department,True,True,True
+healthcare_data.csv__,healthcare_data.csv,diagnosis,True,True,True
+healthcare_data.csv__,healthcare_data.csv,discharge_date,False,False,True
+healthcare_data.csv__,healthcare_data.csv,email,False,True,False
+healthcare_data.csv__,healthcare_data.csv,first_name,False,True,False
+healthcare_data.csv__,healthcare_data.csv,gender,True,True,True
+healthcare_data.csv__,healthcare_data.csv,last_name,False,True,False
+healthcare_data.csv__,healthcare_data.csv,patient_id,False,True,False
+healthcare_data.csv__,healthcare_data.csv,phone,False,True,False
+healthcare_data.csv__,healthcare_data.csv,status,True,True,True
+healthcare_data.csv__,healthcare_data.csv,treatment,True,True,True
+Healthcare_Dataset,healthcare_dataset.csv,Admission Type,True,True,True
+Healthcare_Dataset,healthcare_dataset.csv,Age,False,False,True
+Healthcare_Dataset,healthcare_dataset.csv,Billing Amount,False,False,True
+Healthcare_Dataset,healthcare_dataset.csv,Blood Type,True,True,True
+Healthcare_Dataset,healthcare_dataset.csv,Date of Admission,False,False,True
+Healthcare_Dataset,healthcare_dataset.csv,Discharge Date,False,False,True
+Healthcare_Dataset,healthcare_dataset.csv,Doctor,True,True,True
+Healthcare_Dataset,healthcare_dataset.csv,Gender,True,True,True
+Healthcare_Dataset,healthcare_dataset.csv,Hospital,True,True,True
+Healthcare_Dataset,healthcare_dataset.csv,Insurance Provider,True,True,True
+Healthcare_Dataset,healthcare_dataset.csv,Medical Condition,True,True,True
+Healthcare_Dataset,healthcare_dataset.csv,Medication,True,True,True
+Healthcare_Dataset,healthcare_dataset.csv,Name,True,False,False
+Healthcare_Dataset,healthcare_dataset.csv,Room Number,True,True,True
+Healthcare_Dataset,healthcare_dataset.csv,Test Results,True,True,True
+Healthcare_Real-Time_Risk_Dataset__,healthcare_real_time_dataset.csv,Age,False,False,True
+Healthcare_Real-Time_Risk_Dataset__,healthcare_real_time_dataset.csv,Alcohol Consumption (per week),False,False,True
+Healthcare_Real-Time_Risk_Dataset__,healthcare_real_time_dataset.csv,BMI,False,False,True
+Healthcare_Real-Time_Risk_Dataset__,healthcare_real_time_dataset.csv,Chronic Disease History,True,True,True
+Healthcare_Real-Time_Risk_Dataset__,healthcare_real_time_dataset.csv,Gender,True,True,True
+Healthcare_Real-Time_Risk_Dataset__,healthcare_real_time_dataset.csv,Health Risk Level,True,True,True
+Healthcare_Real-Time_Risk_Dataset__,healthcare_real_time_dataset.csv,Physical Activity (hours/week),False,False,True
+Healthcare_Real-Time_Risk_Dataset__,healthcare_real_time_dataset.csv,Sleep Duration (hours/day),False,False,True
+Healthcare_Real-Time_Risk_Dataset__,healthcare_real_time_dataset.csv,Smoking Status,True,True,True
+Healthcare_Real-Time_Risk_Dataset__,healthcare_real_time_dataset.csv,Stress Level (1-10),True,True,True
+Healthcare_SymptomsDisease_Classification_Dataset,Healthcare.csv,Age,False,False,True
+Healthcare_SymptomsDisease_Classification_Dataset,Healthcare.csv,Disease,True,True,True
+Healthcare_SymptomsDisease_Classification_Dataset,Healthcare.csv,Gender,True,True,True
+Healthcare_SymptomsDisease_Classification_Dataset,Healthcare.csv,Patient_ID,True,False,False
+Healthcare_SymptomsDisease_Classification_Dataset,Healthcare.csv,Symptom_Count,False,False,True
+Healthcare_SymptomsDisease_Classification_Dataset,Healthcare.csv,Symptoms,True,False,False
+Heart_Failure_Diagnosis_Data_for_Machine_Learning,HeartFailureDataset.csv,active,True,True,True
+Heart_Failure_Diagnosis_Data_for_Machine_Learning,HeartFailureDataset.csv,age,False,False,True
+Heart_Failure_Diagnosis_Data_for_Machine_Learning,HeartFailureDataset.csv,alco,True,True,True
+Heart_Failure_Diagnosis_Data_for_Machine_Learning,HeartFailureDataset.csv,ap_hi,False,False,True
+Heart_Failure_Diagnosis_Data_for_Machine_Learning,HeartFailureDataset.csv,ap_lo,False,False,True
+Heart_Failure_Diagnosis_Data_for_Machine_Learning,HeartFailureDataset.csv,cardio,True,True,True
+Heart_Failure_Diagnosis_Data_for_Machine_Learning,HeartFailureDataset.csv,cholesterol,True,True,True
+Heart_Failure_Diagnosis_Data_for_Machine_Learning,HeartFailureDataset.csv,gender,True,True,True
+Heart_Failure_Diagnosis_Data_for_Machine_Learning,HeartFailureDataset.csv,gluc,True,True,True
+Heart_Failure_Diagnosis_Data_for_Machine_Learning,HeartFailureDataset.csv,height,False,False,True
+Heart_Failure_Diagnosis_Data_for_Machine_Learning,HeartFailureDataset.csv,id,True,False,False
+Heart_Failure_Diagnosis_Data_for_Machine_Learning,HeartFailureDataset.csv,smoke,True,True,True
+Heart_Failure_Diagnosis_Data_for_Machine_Learning,HeartFailureDataset.csv,weight,False,False,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,absences,False,False,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,activities,True,True,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,address_type,True,True,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,age,True,False,False
+High_School_Student_Performance_Demographics,student_math_clean.csv,class_failures,True,True,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,extra_paid_classes,True,True,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,family_relationship,True,True,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,family_size,True,True,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,family_support,True,True,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,father_education,True,True,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,father_job,True,True,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,final_grade,False,False,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,free_time,True,True,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,grade_1,False,False,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,grade_2,False,False,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,guardian,True,True,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,health,True,True,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,higher_ed,True,True,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,internet_access,True,True,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,mother_education,True,True,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,mother_job,True,True,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,nursery_school,True,True,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,parent_status,True,True,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,romantic_relationship,True,True,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,school,True,True,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,school_choice_reason,True,True,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,school_support,True,True,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,sex,True,True,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,social,True,True,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,student_id,False,False,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,study_time,True,True,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,travel_time,True,True,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,weekday_alcohol,True,True,True
+High_School_Student_Performance_Demographics,student_math_clean.csv,weekend_alcohol,True,True,True
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,absences,False,False,True
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,activities,True,True,True
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,address_type,True,True,True
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,age,True,False,False
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,class_failures,True,False,False
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,extra_paid_classes,True,True,True
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,family_relationship,True,False,False
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,family_size,True,True,True
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,family_support,True,True,True
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,father_education,True,True,True
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,father_job,True,True,True
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,final_grade,False,False,True
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,free_time,True,False,False
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,grade_1,False,False,True
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,grade_2,False,False,True
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,guardian,True,True,True
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,health,True,False,False
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,higher_ed,True,True,True
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,internet_access,True,True,True
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,mother_education,True,True,True
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,mother_job,True,True,True
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,nursery_school,True,True,True
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,parent_status,True,True,True
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,romantic_relationship,True,True,True
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,school,True,True,True
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,school_choice_reason,True,True,True
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,school_support,True,True,True
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,sex,True,True,True
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,social,True,False,False
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,student_id,True,False,False
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,study_time,True,True,True
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,travel_time,True,True,True
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,weekday_alcohol,True,False,False
+High_School_Student_Performance_Demographics,student_portuguese_clean.csv,weekend_alcohol,True,False,False
+Home_Loan_Approval_,loan_sanction_test.csv,ApplicantIncome,False,False,True
+Home_Loan_Approval_,loan_sanction_test.csv,CoapplicantIncome,False,False,True
+Home_Loan_Approval_,loan_sanction_test.csv,Credit_History,True,True,True
+Home_Loan_Approval_,loan_sanction_test.csv,Dependents,True,True,True
+Home_Loan_Approval_,loan_sanction_test.csv,Education,True,True,True
+Home_Loan_Approval_,loan_sanction_test.csv,Gender,True,True,True
+Home_Loan_Approval_,loan_sanction_test.csv,LoanAmount,False,False,True
+Home_Loan_Approval_,loan_sanction_test.csv,Loan_Amount_Term,False,False,True
+Home_Loan_Approval_,loan_sanction_test.csv,Loan_ID,False,False,True
+Home_Loan_Approval_,loan_sanction_test.csv,Married,True,True,True
+Home_Loan_Approval_,loan_sanction_test.csv,Property_Area,True,True,True
+Home_Loan_Approval_,loan_sanction_test.csv,Self_Employed,True,True,True
+Home_Loan_Approval_,loan_sanction_train.csv,ApplicantIncome,False,False,True
+Home_Loan_Approval_,loan_sanction_train.csv,CoapplicantIncome,False,False,True
+Home_Loan_Approval_,loan_sanction_train.csv,Credit_History,True,True,True
+Home_Loan_Approval_,loan_sanction_train.csv,Dependents,True,True,True
+Home_Loan_Approval_,loan_sanction_train.csv,Education,True,True,True
+Home_Loan_Approval_,loan_sanction_train.csv,Gender,True,True,True
+Home_Loan_Approval_,loan_sanction_train.csv,LoanAmount,False,False,True
+Home_Loan_Approval_,loan_sanction_train.csv,Loan_Amount_Term,False,False,True
+Home_Loan_Approval_,loan_sanction_train.csv,Loan_ID,False,False,True
+Home_Loan_Approval_,loan_sanction_train.csv,Loan_Status,True,True,True
+Home_Loan_Approval_,loan_sanction_train.csv,Married,True,True,True
+Home_Loan_Approval_,loan_sanction_train.csv,Property_Area,True,True,True
+Home_Loan_Approval_,loan_sanction_train.csv,Self_Employed,True,True,True
+Homicides__,homicide-data.csv,city,True,True,True
+Homicides__,homicide-data.csv,disposition,True,True,True
+Homicides__,homicide-data.csv,lat,False,False,True
+Homicides__,homicide-data.csv,lon,False,False,True
+Homicides__,homicide-data.csv,reported_date,False,False,True
+Homicides__,homicide-data.csv,state,True,True,True
+Homicides__,homicide-data.csv,uid,False,False,True
+Homicides__,homicide-data.csv,victim_age,False,False,True
+Homicides__,homicide-data.csv,victim_first,False,False,True
+Homicides__,homicide-data.csv,victim_last,False,False,True
+Homicides__,homicide-data.csv,victim_race,True,True,True
+Homicides__,homicide-data.csv,victim_sex,True,True,True
+Hospital_Management_Dataset,appointments.csv,appointment_date,True,False,False
+Hospital_Management_Dataset,appointments.csv,appointment_id,True,False,False
+Hospital_Management_Dataset,appointments.csv,appointment_time,True,False,False
+Hospital_Management_Dataset,appointments.csv,doctor_id,True,False,False
+Hospital_Management_Dataset,appointments.csv,patient_id,True,False,False
+Hospital_Management_Dataset,appointments.csv,reason_for_visit,True,True,True
+Hospital_Management_Dataset,appointments.csv,status,True,True,True
+Hospital_Management_Dataset,billing.csv,amount,False,False,True
+Hospital_Management_Dataset,billing.csv,bill_date,False,False,True
+Hospital_Management_Dataset,billing.csv,bill_id,True,False,False
+Hospital_Management_Dataset,billing.csv,patient_id,True,False,False
+Hospital_Management_Dataset,billing.csv,payment_method,True,True,True
+Hospital_Management_Dataset,billing.csv,payment_status,True,True,True
+Hospital_Management_Dataset,billing.csv,treatment_id,True,False,False
+Hospital_Management_Dataset,doctors.csv,doctor_id,True,False,False
+Hospital_Management_Dataset,doctors.csv,email,True,False,False
+Hospital_Management_Dataset,doctors.csv,first_name,True,False,False
+Hospital_Management_Dataset,doctors.csv,hospital_branch,True,True,True
+Hospital_Management_Dataset,doctors.csv,last_name,True,False,False
+Hospital_Management_Dataset,doctors.csv,phone_number,True,False,False
+Hospital_Management_Dataset,doctors.csv,specialization,True,True,True
+Hospital_Management_Dataset,doctors.csv,years_experience,False,False,True
+Hospital_Management_Dataset,patients.csv,address,True,False,False
+Hospital_Management_Dataset,patients.csv,contact_number,True,False,False
+Hospital_Management_Dataset,patients.csv,date_of_birth,False,False,True
+Hospital_Management_Dataset,patients.csv,email,True,False,False
+Hospital_Management_Dataset,patients.csv,first_name,True,False,False
+Hospital_Management_Dataset,patients.csv,gender,True,True,True
+Hospital_Management_Dataset,patients.csv,insurance_number,True,False,False
+Hospital_Management_Dataset,patients.csv,insurance_provider,True,True,True
+Hospital_Management_Dataset,patients.csv,last_name,True,False,False
+Hospital_Management_Dataset,patients.csv,patient_id,True,False,False
+Hospital_Management_Dataset,patients.csv,registration_date,False,False,True
+Hospital_Management_Dataset,treatments.csv,appointment_id,True,False,False
+Hospital_Management_Dataset,treatments.csv,cost,False,False,True
+Hospital_Management_Dataset,treatments.csv,description,True,False,False
+Hospital_Management_Dataset,treatments.csv,treatment_date,False,False,True
+Hospital_Management_Dataset,treatments.csv,treatment_id,True,False,False
+Hospital_Management_Dataset,treatments.csv,treatment_type,True,True,True
+HR_Attrition_Management_Dataset_,HR_Attrition Data.csv,Age,False,False,True
+HR_Attrition_Management_Dataset_,HR_Attrition Data.csv,Age group,True,True,True
+HR_Attrition_Management_Dataset_,HR_Attrition Data.csv,Attrition,True,True,True
+HR_Attrition_Management_Dataset_,HR_Attrition Data.csv,Attrition Count,False,False,True
+HR_Attrition_Management_Dataset_,HR_Attrition Data.csv,Attrition Date,False,False,True
+HR_Attrition_Management_Dataset_,HR_Attrition Data.csv,Attrition Label,True,True,True
+HR_Attrition_Management_Dataset_,HR_Attrition Data.csv,Avg. Satisfaction Score,False,False,True
+HR_Attrition_Management_Dataset_,HR_Attrition Data.csv,Department,True,True,True
+HR_Attrition_Management_Dataset_,HR_Attrition Data.csv,Dynamic Date,False,False,True
+HR_Attrition_Management_Dataset_,HR_Attrition Data.csv,Education,True,True,True
+HR_Attrition_Management_Dataset_,HR_Attrition Data.csv,Education Field,True,True,True
+HR_Attrition_Management_Dataset_,HR_Attrition Data.csv,Employee Count,False,False,True
+HR_Attrition_Management_Dataset_,HR_Attrition Data.csv,Employee No.,False,True,False
+HR_Attrition_Management_Dataset_,HR_Attrition Data.csv,Environment Satisfaction,False,True,False
+HR_Attrition_Management_Dataset_,HR_Attrition Data.csv,Gender,True,True,True
+HR_Attrition_Management_Dataset_,HR_Attrition Data.csv,Job Involvement,False,True,False
+HR_Attrition_Management_Dataset_,HR_Attrition Data.csv,Job Role,True,True,True
+HR_Attrition_Management_Dataset_,HR_Attrition Data.csv,Job Satisfaction,False,True,False
+HR_Attrition_Management_Dataset_,HR_Attrition Data.csv,Monthly Income,False,False,True
+HR_Attrition_Management_Dataset_,HR_Attrition Data.csv,Percent Salary Hike,False,False,True
+HR_Attrition_Management_Dataset_,HR_Attrition Data.csv,Performance Rating,False,True,False
+HR_Attrition_Management_Dataset_,HR_Attrition Data.csv,Placeholder,False,True,False
+HR_Attrition_Management_Dataset_,HR_Attrition Data.csv,Relationship Satisfaction,False,True,False
+HR_Attrition_Management_Dataset_,HR_Attrition Data.csv,Work Life Balance,False,True,False
+HR_Attrition_Management_Dataset_,HR_Attrition Data.csv,Work Location,True,True,True
+HR_Attrition_Management_Dataset_,HR_New_data.csv,Work_accident,True,True,True
+HR_Attrition_Management_Dataset_,HR_New_data.csv,average_montly_hours,False,False,True
+HR_Attrition_Management_Dataset_,HR_New_data.csv,emp_id,False,False,True
+HR_Attrition_Management_Dataset_,HR_New_data.csv,last_evaluation,False,False,True
+HR_Attrition_Management_Dataset_,HR_New_data.csv,number_project,False,False,True
+HR_Attrition_Management_Dataset_,HR_New_data.csv,promotion_last_5years,True,True,True
+HR_Employee_Dataset__,HR_Dataset.csv,Age,False,False,True
+HR_Employee_Dataset__,HR_Dataset.csv,Attrition,True,True,True
+HR_Employee_Dataset__,HR_Dataset.csv,Department,False,True,False
+HR_Employee_Dataset__,HR_Dataset.csv,Distance_From_Home,False,False,True
+HR_Employee_Dataset__,HR_Dataset.csv,Education_Level,True,True,True
+HR_Employee_Dataset__,HR_Dataset.csv,Employee_ID,False,False,True
+HR_Employee_Dataset__,HR_Dataset.csv,Gender,True,True,True
+HR_Employee_Dataset__,HR_Dataset.csv,Job_Role,True,True,True
+HR_Employee_Dataset__,HR_Dataset.csv,Job_Satisfaction,True,True,True
+HR_Employee_Dataset__,HR_Dataset.csv,Last_Promotion_Years_Ago,False,False,True
+HR_Employee_Dataset__,HR_Dataset.csv,Marital_Status,True,True,True
+HR_Employee_Dataset__,HR_Dataset.csv,Monthly_Income,False,False,True
+HR_Employee_Dataset__,HR_Dataset.csv,Number_Of_Companies_Worked,False,False,True
+HR_Employee_Dataset__,HR_Dataset.csv,Overtime,False,True,False
+HR_Employee_Dataset__,HR_Dataset.csv,Performance_Rating,True,True,True
+HR_Employee_Dataset__,HR_Dataset.csv,Stock_Option_Level,True,True,True
+HR_Employee_Dataset__,HR_Dataset.csv,Training_Hours_Last_Year,False,False,True
+HR_Employee_Dataset__,HR_Dataset.csv,Work_Life_Balance,False,True,False
+HR_Employee_Dataset__,HR_Dataset.csv,Years_At_Company,False,False,True
+HR_Employee_Dataset__,HR_Dataset.csv,Years_In_Current_Role,False,False,True
+HR_Employee_Job_Applicant_Dataset_,Generalized_Job_Applicant_Dataset.csv,Accessibility,True,True,True
+HR_Employee_Job_Applicant_Dataset_,Generalized_Job_Applicant_Dataset.csv,AdministrativeSkills,True,False,False
+HR_Employee_Job_Applicant_Dataset_,Generalized_Job_Applicant_Dataset.csv,Age,False,False,True
+HR_Employee_Job_Applicant_Dataset_,Generalized_Job_Applicant_Dataset.csv,CommunicationSkills,True,False,False
+HR_Employee_Job_Applicant_Dataset_,Generalized_Job_Applicant_Dataset.csv,Country,True,True,True
+HR_Employee_Job_Applicant_Dataset_,Generalized_Job_Applicant_Dataset.csv,CurrentlyUnemployed,True,True,True
+HR_Employee_Job_Applicant_Dataset_,Generalized_Job_Applicant_Dataset.csv,CustomerServiceExperience,True,False,False
+HR_Employee_Job_Applicant_Dataset_,Generalized_Job_Applicant_Dataset.csv,EdLevel,True,True,True
+HR_Employee_Job_Applicant_Dataset_,Generalized_Job_Applicant_Dataset.csv,Employed,True,True,True
+HR_Employee_Job_Applicant_Dataset_,Generalized_Job_Applicant_Dataset.csv,Employment,True,True,True
+HR_Employee_Job_Applicant_Dataset_,Generalized_Job_Applicant_Dataset.csv,Gender,True,True,True
+HR_Employee_Job_Applicant_Dataset_,Generalized_Job_Applicant_Dataset.csv,JobDomainInterest,True,True,True
+HR_Employee_Job_Applicant_Dataset_,Generalized_Job_Applicant_Dataset.csv,LanguagesSpoken,True,True,True
+HR_Employee_Job_Applicant_Dataset_,Generalized_Job_Applicant_Dataset.csv,LookingForJobChange,True,True,True
+HR_Employee_Job_Applicant_Dataset_,Generalized_Job_Applicant_Dataset.csv,MarketingKnowledge,True,False,False
+HR_Employee_Job_Applicant_Dataset_,Generalized_Job_Applicant_Dataset.csv,MentalHealth,True,True,True
+HR_Employee_Job_Applicant_Dataset_,Generalized_Job_Applicant_Dataset.csv,PeopleManagementExperience,True,False,False
+HR_Employee_Job_Applicant_Dataset_,Generalized_Job_Applicant_Dataset.csv,PreferredJobType,True,True,True
+HR_Employee_Job_Applicant_Dataset_,Generalized_Job_Applicant_Dataset.csv,PreviousSalary,False,False,True
+HR_Employee_Job_Applicant_Dataset_,Generalized_Job_Applicant_Dataset.csv,ProjectManagementExperience,True,False,False
+HR_Employee_Job_Applicant_Dataset_,Generalized_Job_Applicant_Dataset.csv,ReasonForJobChange,True,True,True
+HR_Employee_Job_Applicant_Dataset_,Generalized_Job_Applicant_Dataset.csv,SoftSkills,True,True,True
+HR_Employee_Job_Applicant_Dataset_,Generalized_Job_Applicant_Dataset.csv,Unnamed: 0,False,False,True
+HR_Employee_Job_Applicant_Dataset_,Generalized_Job_Applicant_Dataset.csv,YearsExp,False,False,True
+HR_Employee_Job_Applicant_Dataset_,Generalized_Job_Applicant_Dataset.csv,YearsExpPro,False,False,True
+Human_Resource_Dataset_,HumanResources-Dataset.csv,birthdate,False,False,True
+Human_Resource_Dataset_,HumanResources-Dataset.csv,city,True,True,True
+Human_Resource_Dataset_,HumanResources-Dataset.csv,department,True,True,True
+Human_Resource_Dataset_,HumanResources-Dataset.csv,education_level,True,True,True
+Human_Resource_Dataset_,HumanResources-Dataset.csv,employee_id,False,False,True
+Human_Resource_Dataset_,HumanResources-Dataset.csv,first_name,False,False,True
+Human_Resource_Dataset_,HumanResources-Dataset.csv,gender,True,True,True
+Human_Resource_Dataset_,HumanResources-Dataset.csv,hiredate,False,False,True
+Human_Resource_Dataset_,HumanResources-Dataset.csv,job_title,True,True,True
+Human_Resource_Dataset_,HumanResources-Dataset.csv,last_name,False,False,True
+Human_Resource_Dataset_,HumanResources-Dataset.csv,overtime,True,True,True
+Human_Resource_Dataset_,HumanResources-Dataset.csv,performance_rating,False,True,False
+Human_Resource_Dataset_,HumanResources-Dataset.csv,salary,False,False,True
+Human_Resource_Dataset_,HumanResources-Dataset.csv,state,True,True,True
+Human_Resource_Dataset_,HumanResources-Dataset.csv,termdate,False,False,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,Absences,False,False,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,CitizenDesc,True,True,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,DOB,False,False,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,DateofHire,False,False,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,DateofTermination,False,False,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,DaysLateLast30,False,False,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,Department,True,True,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,DeptID,True,True,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,EmpID,False,True,False
+Human_Resources_Data_Set__,HRDataset_v14.csv,EmpSatisfaction,False,False,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,EmpStatusID,True,True,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,Employee_Name,False,True,False
+Human_Resources_Data_Set__,HRDataset_v14.csv,EmploymentStatus,True,True,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,EngagementSurvey,False,False,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,FromDiversityJobFairID,True,True,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,GenderID,True,True,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,HispanicLatino,True,True,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,LastPerformanceReview_Date,False,False,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,ManagerID,True,True,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,ManagerName,True,True,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,MaritalDesc,True,True,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,MaritalStatusID,True,True,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,MarriedID,True,True,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,PerfScoreID,True,True,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,PerformanceScore,False,False,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,Position,True,True,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,PositionID,True,True,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,RaceDesc,True,True,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,RecruitmentSource,True,True,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,Salary,False,False,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,Sex,True,True,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,SpecialProjectsCount,False,False,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,State,True,True,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,TermReason,False,True,False
+Human_Resources_Data_Set__,HRDataset_v14.csv,Termd,True,True,True
+Human_Resources_Data_Set__,HRDataset_v14.csv,Zip,True,True,True
+Iris_Flower_Dataset,IRIS.csv,petal_length,False,False,True
+Iris_Flower_Dataset,IRIS.csv,petal_width,False,False,True
+Iris_Flower_Dataset,IRIS.csv,sepal_length,False,False,True
+Iris_Flower_Dataset,IRIS.csv,sepal_width,False,False,True
+Iris_Flower_Dataset,IRIS.csv,species,True,True,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,DOB_yr,False,True,False
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,Dropout,True,True,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,ID,True,True,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,age,False,False,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,asian,True,True,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,bar,True,True,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,bar1,True,True,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,bar1_yr,False,True,False
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,bar2,True,True,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,bar2_yr,False,True,False
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,bar_passed,True,True,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,black,True,True,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,cluster,True,True,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,decile1,True,True,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,decile1b,True,True,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,decile3,True,True,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,dnn_bar_pass_prediction,False,False,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,fam_inc,False,False,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,fulltime,True,True,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,gender,True,True,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,gpa,False,False,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,grad,True,True,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,hisp,True,True,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,index6040,False,False,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,indxgrp,True,True,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,indxgrp2,True,True,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,lsat,False,False,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,male,True,True,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,other,True,True,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,parttime,True,True,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,pass_bar,True,True,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,race,True,True,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,race1,True,True,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,race2,True,True,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,sex,True,True,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,tier,True,True,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,ugpa,False,False,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,zfygpa,False,False,True
+Law_School_Admissions_Bar_Passage,bar_pass_prediction.csv,zgpa,False,False,True
+LEGO_Sets_,lego_sets.csv,US_retailPrice,False,False,True
+LEGO_Sets_,lego_sets.csv,agerange_min,False,True,False
+LEGO_Sets_,lego_sets.csv,bricksetURL,False,True,False
+LEGO_Sets_,lego_sets.csv,category,True,True,True
+LEGO_Sets_,lego_sets.csv,imageURL,False,True,False
+LEGO_Sets_,lego_sets.csv,minifigs,False,False,True
+LEGO_Sets_,lego_sets.csv,name,False,True,False
+LEGO_Sets_,lego_sets.csv,pieces,False,False,True
+LEGO_Sets_,lego_sets.csv,set_id,False,False,True
+LEGO_Sets_,lego_sets.csv,subtheme,True,True,True
+LEGO_Sets_,lego_sets.csv,theme,True,True,True
+LEGO_Sets_,lego_sets.csv,themeGroup,True,True,True
+LEGO_Sets_,lego_sets.csv,thumbnailURL,False,True,False
+LEGO_Sets_,lego_sets.csv,year,False,False,True
+LEGO_Sets_,lego_sets_data_dictionary.csv,Description,False,False,True
+LEGO_Sets_,lego_sets_data_dictionary.csv,Field,False,True,False
+Loan_Approval_Classification_Dataset_,loan_data.csv,cb_person_cred_hist_length,False,False,True
+Loan_Approval_Classification_Dataset_,loan_data.csv,credit_score,False,False,True
+Loan_Approval_Classification_Dataset_,loan_data.csv,loan_amnt,False,False,True
+Loan_Approval_Classification_Dataset_,loan_data.csv,loan_int_rate,False,False,True
+Loan_Approval_Classification_Dataset_,loan_data.csv,loan_intent,True,True,True
+Loan_Approval_Classification_Dataset_,loan_data.csv,loan_percent_income,False,False,True
+Loan_Approval_Classification_Dataset_,loan_data.csv,loan_status,True,True,True
+Loan_Approval_Classification_Dataset_,loan_data.csv,person_age,False,False,True
+Loan_Approval_Classification_Dataset_,loan_data.csv,person_education,True,True,True
+Loan_Approval_Classification_Dataset_,loan_data.csv,person_emp_exp,False,False,True
+Loan_Approval_Classification_Dataset_,loan_data.csv,person_gender,True,True,True
+Loan_Approval_Classification_Dataset_,loan_data.csv,person_home_ownership,True,True,True
+Loan_Approval_Classification_Dataset_,loan_data.csv,person_income,False,False,True
+Loan_Approval_Classification_Dataset_,loan_data.csv,previous_loan_defaults_on_file,True,True,True
+Loan_Eligibility_Prediction_DataSet,Loan Eligibility Prediction.csv,Applicant_Income,False,False,True
+Loan_Eligibility_Prediction_DataSet,Loan Eligibility Prediction.csv,Coapplicant_Income,False,False,True
+Loan_Eligibility_Prediction_DataSet,Loan Eligibility Prediction.csv,Credit_History,True,True,True
+Loan_Eligibility_Prediction_DataSet,Loan Eligibility Prediction.csv,Customer_ID,True,False,False
+Loan_Eligibility_Prediction_DataSet,Loan Eligibility Prediction.csv,Dependents,True,True,True
+Loan_Eligibility_Prediction_DataSet,Loan Eligibility Prediction.csv,Education,True,True,True
+Loan_Eligibility_Prediction_DataSet,Loan Eligibility Prediction.csv,Gender,True,True,True
+Loan_Eligibility_Prediction_DataSet,Loan Eligibility Prediction.csv,Loan_Amount,False,False,True
+Loan_Eligibility_Prediction_DataSet,Loan Eligibility Prediction.csv,Loan_Amount_Term,False,False,True
+Loan_Eligibility_Prediction_DataSet,Loan Eligibility Prediction.csv,Loan_Status,True,True,True
+Loan_Eligibility_Prediction_DataSet,Loan Eligibility Prediction.csv,Married,True,True,True
+Loan_Eligibility_Prediction_DataSet,Loan Eligibility Prediction.csv,Property_Area,True,True,True
+Loan_Eligibility_Prediction_DataSet,Loan Eligibility Prediction.csv,Self_Employed,True,True,True
+Loan_Prediction_Dataset_2025__,loan_dataset_20000.csv,age,False,False,True
+Loan_Prediction_Dataset_2025__,loan_dataset_20000.csv,annual_income,False,False,True
+Loan_Prediction_Dataset_2025__,loan_dataset_20000.csv,credit_score,False,False,True
+Loan_Prediction_Dataset_2025__,loan_dataset_20000.csv,current_balance,False,False,True
+Loan_Prediction_Dataset_2025__,loan_dataset_20000.csv,debt_to_income_ratio,False,False,True
+Loan_Prediction_Dataset_2025__,loan_dataset_20000.csv,delinquency_history,False,False,True
+Loan_Prediction_Dataset_2025__,loan_dataset_20000.csv,education_level,True,True,True
+Loan_Prediction_Dataset_2025__,loan_dataset_20000.csv,employment_status,True,True,True
+Loan_Prediction_Dataset_2025__,loan_dataset_20000.csv,gender,True,True,True
+Loan_Prediction_Dataset_2025__,loan_dataset_20000.csv,grade_subgrade,True,True,True
+Loan_Prediction_Dataset_2025__,loan_dataset_20000.csv,installment,True,False,False
+Loan_Prediction_Dataset_2025__,loan_dataset_20000.csv,interest_rate,False,False,True
+Loan_Prediction_Dataset_2025__,loan_dataset_20000.csv,loan_amount,False,False,True
+Loan_Prediction_Dataset_2025__,loan_dataset_20000.csv,loan_paid_back,True,True,True
+Loan_Prediction_Dataset_2025__,loan_dataset_20000.csv,loan_purpose,True,True,True
+Loan_Prediction_Dataset_2025__,loan_dataset_20000.csv,loan_term,False,False,True
+Loan_Prediction_Dataset_2025__,loan_dataset_20000.csv,marital_status,True,True,True
+Loan_Prediction_Dataset_2025__,loan_dataset_20000.csv,monthly_income,False,False,True
+Loan_Prediction_Dataset_2025__,loan_dataset_20000.csv,num_of_delinquencies,False,False,True
+Loan_Prediction_Dataset_2025__,loan_dataset_20000.csv,num_of_open_accounts,False,False,True
+Loan_Prediction_Dataset_2025__,loan_dataset_20000.csv,public_records,False,False,True
+Loan_Prediction_Dataset_2025__,loan_dataset_20000.csv,total_credit_limit,False,False,True
+Loan_Status_Prediction__,loan_data.csv,ApplicantIncome,False,False,True
+Loan_Status_Prediction__,loan_data.csv,CoapplicantIncome,False,False,True
+Loan_Status_Prediction__,loan_data.csv,Credit_History,True,True,True
+Loan_Status_Prediction__,loan_data.csv,Dependents,True,True,True
+Loan_Status_Prediction__,loan_data.csv,Education,True,True,True
+Loan_Status_Prediction__,loan_data.csv,Gender,True,True,True
+Loan_Status_Prediction__,loan_data.csv,LoanAmount,False,False,True
+Loan_Status_Prediction__,loan_data.csv,Loan_Amount_Term,False,False,True
+Loan_Status_Prediction__,loan_data.csv,Loan_ID,False,False,True
+Loan_Status_Prediction__,loan_data.csv,Loan_Status,True,True,True
+Loan_Status_Prediction__,loan_data.csv,Married,True,True,True
+Loan_Status_Prediction__,loan_data.csv,Property_Area,True,True,True
+Loan_Status_Prediction__,loan_data.csv,Self_Employed,True,True,True
+"Male_homicide_rate,_2021_",male-homicide-rate new.csv,Entity,True,True,True
+"Male_homicide_rate,_2021_",male-homicide-rate new.csv,"Homicide rate per 100,000 population - Male - All ages",False,False,True
+"Male_homicide_rate,_2021_",male-homicide-rate new.csv,PERCENTAGE,False,False,True
+"Male_homicide_rate,_2021_",male-homicide-rate new.csv,Year,False,True,False
+Marijuana_Arrests_in_Columbia__,Marijuana_Arrests.csv,ADDRESS,True,True,True
+Marijuana_Arrests_in_Columbia__,Marijuana_Arrests.csv,ADULT_JUVENILE,True,True,True
+Marijuana_Arrests_in_Columbia__,Marijuana_Arrests.csv,AGE,False,False,True
+Marijuana_Arrests_in_Columbia__,Marijuana_Arrests.csv,ARREST_BLOCKX,False,False,True
+Marijuana_Arrests_in_Columbia__,Marijuana_Arrests.csv,ARREST_BLOCKY,False,False,True
+Marijuana_Arrests_in_Columbia__,Marijuana_Arrests.csv,CATEGORY,True,True,True
+Marijuana_Arrests_in_Columbia__,Marijuana_Arrests.csv,CCN,True,True,True
+Marijuana_Arrests_in_Columbia__,Marijuana_Arrests.csv,CREATED,False,False,True
+Marijuana_Arrests_in_Columbia__,Marijuana_Arrests.csv,CREATOR,True,True,True
+Marijuana_Arrests_in_Columbia__,Marijuana_Arrests.csv,DATETIME,False,False,True
+Marijuana_Arrests_in_Columbia__,Marijuana_Arrests.csv,DEFENDANT_DISTRICT,True,True,True
+Marijuana_Arrests_in_Columbia__,Marijuana_Arrests.csv,DEFENDANT_PSA,True,True,True
+Marijuana_Arrests_in_Columbia__,Marijuana_Arrests.csv,DESCRIPTION,True,True,True
+Marijuana_Arrests_in_Columbia__,Marijuana_Arrests.csv,EDITED,False,False,True
+Marijuana_Arrests_in_Columbia__,Marijuana_Arrests.csv,EDITOR,False,True,False
+Marijuana_Arrests_in_Columbia__,Marijuana_Arrests.csv,ETHNICITY,True,True,True
+Marijuana_Arrests_in_Columbia__,Marijuana_Arrests.csv,GIS_ID,True,True,True
+Marijuana_Arrests_in_Columbia__,Marijuana_Arrests.csv,GLOBALID,False,True,False
+Marijuana_Arrests_in_Columbia__,Marijuana_Arrests.csv,OBJECTID,False,True,False
+Marijuana_Arrests_in_Columbia__,Marijuana_Arrests.csv,OFFENSE_BLOCKX,False,False,True
+Marijuana_Arrests_in_Columbia__,Marijuana_Arrests.csv,OFFENSE_BLOCKY,False,False,True
+Marijuana_Arrests_in_Columbia__,Marijuana_Arrests.csv,OFFENSE_DISTRICT,True,True,True
+Marijuana_Arrests_in_Columbia__,Marijuana_Arrests.csv,OFFENSE_PSA,True,True,True
+Marijuana_Arrests_in_Columbia__,Marijuana_Arrests.csv,RACE,True,True,True
+Marijuana_Arrests_in_Columbia__,Marijuana_Arrests.csv,SEX,True,True,True
+Marijuana_Arrests_in_Columbia__,Marijuana_Arrests.csv,TYPE,True,True,True
+Marijuana_Arrests_in_Columbia__,Marijuana_Arrests.csv,YEAR,True,True,True
+Mental_Health_,mental_health_dataset.csv,age,False,False,True
+Mental_Health_,mental_health_dataset.csv,anxiety_score,False,False,True
+Mental_Health_,mental_health_dataset.csv,depression_score,False,False,True
+Mental_Health_,mental_health_dataset.csv,employment_status,True,True,True
+Mental_Health_,mental_health_dataset.csv,gender,True,True,True
+Mental_Health_,mental_health_dataset.csv,mental_health_history,True,True,True
+Mental_Health_,mental_health_dataset.csv,mental_health_risk,True,True,True
+Mental_Health_,mental_health_dataset.csv,physical_activity_days,False,False,True
+Mental_Health_,mental_health_dataset.csv,productivity_score,False,False,True
+Mental_Health_,mental_health_dataset.csv,seeks_treatment,True,True,True
+Mental_Health_,mental_health_dataset.csv,sleep_hours,True,False,False
+Mental_Health_,mental_health_dataset.csv,social_support_score,False,False,True
+Mental_Health_,mental_health_dataset.csv,stress_level,True,True,True
+Mental_Health_,mental_health_dataset.csv,work_environment,True,True,True
+Mental_Health_Dataset_,Mental Health Dataset.csv,Changes_Habits,True,True,True
+Mental_Health_Dataset_,Mental Health Dataset.csv,Coping_Struggles,True,True,True
+Mental_Health_Dataset_,Mental Health Dataset.csv,Country,True,True,True
+Mental_Health_Dataset_,Mental Health Dataset.csv,Days_Indoors,False,False,True
+Mental_Health_Dataset_,Mental Health Dataset.csv,Gender,True,True,True
+Mental_Health_Dataset_,Mental Health Dataset.csv,Growing_Stress,True,False,False
+Mental_Health_Dataset_,Mental Health Dataset.csv,Mental_Health_History,True,True,True
+Mental_Health_Dataset_,Mental Health Dataset.csv,Mood_Swings,True,True,True
+Mental_Health_Dataset_,Mental Health Dataset.csv,Occupation,True,True,True
+Mental_Health_Dataset_,Mental Health Dataset.csv,Social_Weakness,True,True,True
+Mental_Health_Dataset_,Mental Health Dataset.csv,Timestamp,False,False,True
+Mental_Health_Dataset_,Mental Health Dataset.csv,Work_Interest,True,True,True
+Mental_Health_Dataset_,Mental Health Dataset.csv,care_options,True,True,True
+Mental_Health_Dataset_,Mental Health Dataset.csv,family_history,True,True,True
+Mental_Health_Dataset_,Mental Health Dataset.csv,mental_health_interview,False,True,False
+Mental_Health_Dataset_,Mental Health Dataset.csv,self_employed,True,True,True
+Mental_Health_Dataset_,Mental Health Dataset.csv,treatment,True,True,True
+Original_Dataset_for_Loan_Approval_Prediction__,credit_risk_dataset.csv,cb_person_cred_hist_length,False,False,True
+Original_Dataset_for_Loan_Approval_Prediction__,credit_risk_dataset.csv,cb_person_default_on_file,True,True,True
+Original_Dataset_for_Loan_Approval_Prediction__,credit_risk_dataset.csv,loan_amnt,False,False,True
+Original_Dataset_for_Loan_Approval_Prediction__,credit_risk_dataset.csv,loan_grade,True,True,True
+Original_Dataset_for_Loan_Approval_Prediction__,credit_risk_dataset.csv,loan_int_rate,False,False,True
+Original_Dataset_for_Loan_Approval_Prediction__,credit_risk_dataset.csv,loan_intent,True,True,True
+Original_Dataset_for_Loan_Approval_Prediction__,credit_risk_dataset.csv,loan_percent_income,False,False,True
+Original_Dataset_for_Loan_Approval_Prediction__,credit_risk_dataset.csv,loan_status,True,True,True
+Original_Dataset_for_Loan_Approval_Prediction__,credit_risk_dataset.csv,person_age,False,False,True
+Original_Dataset_for_Loan_Approval_Prediction__,credit_risk_dataset.csv,person_emp_length,False,False,True
+Original_Dataset_for_Loan_Approval_Prediction__,credit_risk_dataset.csv,person_home_ownership,True,True,True
+Original_Dataset_for_Loan_Approval_Prediction__,credit_risk_dataset.csv,person_income,False,False,True
+Patient_Demographics_&_Lifestyle_Data__,patient_demographics_lifestyle.csv,age,False,False,True
+Patient_Demographics_&_Lifestyle_Data__,patient_demographics_lifestyle.csv,alcohol_consumption,True,True,True
+Patient_Demographics_&_Lifestyle_Data__,patient_demographics_lifestyle.csv,blood_pressure_dia,False,False,True
+Patient_Demographics_&_Lifestyle_Data__,patient_demographics_lifestyle.csv,blood_pressure_sys,False,False,True
+Patient_Demographics_&_Lifestyle_Data__,patient_demographics_lifestyle.csv,bmi,False,False,True
+Patient_Demographics_&_Lifestyle_Data__,patient_demographics_lifestyle.csv,cholesterol_level,True,False,False
+Patient_Demographics_&_Lifestyle_Data__,patient_demographics_lifestyle.csv,city,True,True,True
+Patient_Demographics_&_Lifestyle_Data__,patient_demographics_lifestyle.csv,country,True,True,True
+Patient_Demographics_&_Lifestyle_Data__,patient_demographics_lifestyle.csv,diabetes_status,True,True,True
+Patient_Demographics_&_Lifestyle_Data__,patient_demographics_lifestyle.csv,diet_type,True,True,True
+Patient_Demographics_&_Lifestyle_Data__,patient_demographics_lifestyle.csv,education_level,True,True,True
+Patient_Demographics_&_Lifestyle_Data__,patient_demographics_lifestyle.csv,gender,True,True,True
+Patient_Demographics_&_Lifestyle_Data__,patient_demographics_lifestyle.csv,heart_rate,False,False,True
+Patient_Demographics_&_Lifestyle_Data__,patient_demographics_lifestyle.csv,income_level,True,True,True
+Patient_Demographics_&_Lifestyle_Data__,patient_demographics_lifestyle.csv,marital_status,True,True,True
+Patient_Demographics_&_Lifestyle_Data__,patient_demographics_lifestyle.csv,occupation_type,True,True,True
+Patient_Demographics_&_Lifestyle_Data__,patient_demographics_lifestyle.csv,patient_id,False,False,True
+Patient_Demographics_&_Lifestyle_Data__,patient_demographics_lifestyle.csv,physical_activity_level,True,True,True
+Patient_Demographics_&_Lifestyle_Data__,patient_demographics_lifestyle.csv,region_type,True,True,True
+Patient_Demographics_&_Lifestyle_Data__,patient_demographics_lifestyle.csv,smoking_status,True,True,True
+PC_Games_,Games.csv,Developers,True,True,True
+PC_Games_,Games.csv,Game,True,True,True
+PC_Games_,Games.csv,Publisher,True,True,True
+PC_Games_,Games.csv,Series,True,True,True
+Personal_Finance_ML_Dataset__,synthetic_personal_finance_dataset.csv,age,False,False,True
+Personal_Finance_ML_Dataset__,synthetic_personal_finance_dataset.csv,credit_score,False,False,True
+Personal_Finance_ML_Dataset__,synthetic_personal_finance_dataset.csv,debt_to_income_ratio,False,False,True
+Personal_Finance_ML_Dataset__,synthetic_personal_finance_dataset.csv,education_level,True,True,True
+Personal_Finance_ML_Dataset__,synthetic_personal_finance_dataset.csv,employment_status,True,True,True
+Personal_Finance_ML_Dataset__,synthetic_personal_finance_dataset.csv,gender,True,True,True
+Personal_Finance_ML_Dataset__,synthetic_personal_finance_dataset.csv,has_loan,True,True,True
+Personal_Finance_ML_Dataset__,synthetic_personal_finance_dataset.csv,job_title,True,True,True
+Personal_Finance_ML_Dataset__,synthetic_personal_finance_dataset.csv,loan_amount_usd,False,False,True
+Personal_Finance_ML_Dataset__,synthetic_personal_finance_dataset.csv,loan_interest_rate_pct,False,False,True
+Personal_Finance_ML_Dataset__,synthetic_personal_finance_dataset.csv,loan_term_months,False,False,True
+Personal_Finance_ML_Dataset__,synthetic_personal_finance_dataset.csv,loan_type,True,True,True
+Personal_Finance_ML_Dataset__,synthetic_personal_finance_dataset.csv,monthly_emi_usd,False,False,True
+Personal_Finance_ML_Dataset__,synthetic_personal_finance_dataset.csv,monthly_expenses_usd,False,False,True
+Personal_Finance_ML_Dataset__,synthetic_personal_finance_dataset.csv,monthly_income_usd,False,False,True
+Personal_Finance_ML_Dataset__,synthetic_personal_finance_dataset.csv,record_date,False,False,True
+Personal_Finance_ML_Dataset__,synthetic_personal_finance_dataset.csv,region,True,True,True
+Personal_Finance_ML_Dataset__,synthetic_personal_finance_dataset.csv,savings_to_income_ratio,False,False,True
+Personal_Finance_ML_Dataset__,synthetic_personal_finance_dataset.csv,savings_usd,False,False,True
+Personal_Finance_ML_Dataset__,synthetic_personal_finance_dataset.csv,user_id,False,False,True
+Plants___,TARP.csv,Air humidity (%),False,False,True
+Plants___,TARP.csv,Air temperature (C),False,False,True
+Plants___,TARP.csv,K,False,False,True
+Plants___,TARP.csv,N,False,False,True
+Plants___,TARP.csv,P,False,False,True
+Plants___,TARP.csv,Pressure (KPa),False,False,True
+Plants___,TARP.csv,Soil Humidity,False,False,True
+Plants___,TARP.csv,Soil Moisture,False,False,True
+Plants___,TARP.csv,Status,True,True,True
+Plants___,TARP.csv,Temperature,False,False,True
+Plants___,TARP.csv,Time,False,False,True
+Plants___,TARP.csv,Wind gust (Km/h),False,False,True
+Plants___,TARP.csv,Wind speed (Km/h),False,False,True
+Plants___,TARP.csv,ph,False,False,True
+Plants___,TARP.csv,rainfall,False,False,True
+Play_Tennis_(Practice_dataset_for_classification)_,playtennis.csv,Humidity,True,True,True
+Play_Tennis_(Practice_dataset_for_classification)_,playtennis.csv,Outlook,True,True,True
+Play_Tennis_(Practice_dataset_for_classification)_,playtennis.csv,PlayTennis,True,True,True
+Play_Tennis_(Practice_dataset_for_classification)_,playtennis.csv,Temperature,True,True,True
+Play_Tennis_(Practice_dataset_for_classification)_,playtennis.csv,Wind,True,True,True
+Pokemon_with_stats__,Pokemon.csv,1,True,True,True
+Pokemon_with_stats__,Pokemon.csv,318,False,False,True
+Pokemon_with_stats__,Pokemon.csv,45,False,False,True
+Pokemon_with_stats__,Pokemon.csv,49,False,False,True
+Pokemon_with_stats__,Pokemon.csv,65,False,False,True
+Pokemon_with_stats__,Pokemon.csv,Bulbasaur,True,True,True
+Pokemon_with_stats__,Pokemon.csv,False,True,True,True
+Pokemon_with_stats__,Pokemon.csv,Grass,True,True,True
+Pokemon_with_stats__,Pokemon.csv,Poison,True,True,True
+Police_Data__,Police Data.csv,country_name,True,True,True
+Police_Data__,Police Data.csv,driver_age,False,False,True
+Police_Data__,Police Data.csv,driver_age_raw,False,False,True
+Police_Data__,Police Data.csv,driver_gender,True,True,True
+Police_Data__,Police Data.csv,driver_race,True,True,True
+Police_Data__,Police Data.csv,drugs_related_stop,True,True,True
+Police_Data__,Police Data.csv,is_arrested,True,True,True
+Police_Data__,Police Data.csv,search_conducted,True,True,True
+Police_Data__,Police Data.csv,search_type,True,True,True
+Police_Data__,Police Data.csv,stop_date,False,False,True
+Police_Data__,Police Data.csv,stop_duration,False,True,False
+Police_Data__,Police Data.csv,stop_outcome,True,True,True
+Police_Data__,Police Data.csv,stop_time,False,False,True
+Police_Data__,Police Data.csv,violation,True,True,True
+Police_Data__,Police Data.csv,violation_raw,True,True,True
+Police_deaths_in_USA_from_1791_to_2022_,k9_deaths_USA_v7.csv,Age,False,False,True
+Police_deaths_in_USA_from_1791_to_2022_,k9_deaths_USA_v7.csv,Breed,True,True,True
+Police_deaths_in_USA_from_1791_to_2022_,k9_deaths_USA_v7.csv,Cause,True,True,True
+Police_deaths_in_USA_from_1791_to_2022_,k9_deaths_USA_v7.csv,Day_Of_Week,True,True,True
+Police_deaths_in_USA_from_1791_to_2022_,k9_deaths_USA_v7.csv,Department,True,True,True
+Police_deaths_in_USA_from_1791_to_2022_,k9_deaths_USA_v7.csv,End_Of_Watch,False,False,True
+Police_deaths_in_USA_from_1791_to_2022_,k9_deaths_USA_v7.csv,Gender,True,True,True
+Police_deaths_in_USA_from_1791_to_2022_,k9_deaths_USA_v7.csv,Name,False,False,True
+Police_deaths_in_USA_from_1791_to_2022_,k9_deaths_USA_v7.csv,Offender,True,True,True
+Police_deaths_in_USA_from_1791_to_2022_,k9_deaths_USA_v7.csv,Rank,True,True,True
+Police_deaths_in_USA_from_1791_to_2022_,k9_deaths_USA_v7.csv,State,True,True,True
+Police_deaths_in_USA_from_1791_to_2022_,k9_deaths_USA_v7.csv,Summary,False,False,True
+Police_deaths_in_USA_from_1791_to_2022_,k9_deaths_USA_v7.csv,Tour,False,False,True
+Police_deaths_in_USA_from_1791_to_2022_,k9_deaths_USA_v7.csv,Weapon,True,True,True
+Police_deaths_in_USA_from_1791_to_2022_,police_deaths_USA_v7.csv,Age,False,False,True
+Police_deaths_in_USA_from_1791_to_2022_,police_deaths_USA_v7.csv,Badge,False,False,True
+Police_deaths_in_USA_from_1791_to_2022_,police_deaths_USA_v7.csv,Cause,True,True,True
+Police_deaths_in_USA_from_1791_to_2022_,police_deaths_USA_v7.csv,Day_Of_Week,True,True,True
+Police_deaths_in_USA_from_1791_to_2022_,police_deaths_USA_v7.csv,Department,True,True,True
+Police_deaths_in_USA_from_1791_to_2022_,police_deaths_USA_v7.csv,End_Of_Watch,False,False,True
+Police_deaths_in_USA_from_1791_to_2022_,police_deaths_USA_v7.csv,Name,False,False,True
+Police_deaths_in_USA_from_1791_to_2022_,police_deaths_USA_v7.csv,Offender,False,True,False
+Police_deaths_in_USA_from_1791_to_2022_,police_deaths_USA_v7.csv,Rank,True,True,True
+Police_deaths_in_USA_from_1791_to_2022_,police_deaths_USA_v7.csv,State,True,True,True
+Police_deaths_in_USA_from_1791_to_2022_,police_deaths_USA_v7.csv,Summary,False,False,True
+Police_deaths_in_USA_from_1791_to_2022_,police_deaths_USA_v7.csv,Tour,False,False,True
+Police_deaths_in_USA_from_1791_to_2022_,police_deaths_USA_v7.csv,Weapon,True,True,True
+Predicting_Parole_Violators_,parole.csv,age,False,False,True
+Predicting_Parole_Violators_,parole.csv,crime,True,True,True
+Predicting_Parole_Violators_,parole.csv,male,True,True,True
+Predicting_Parole_Violators_,parole.csv,max.sentence,False,False,True
+Predicting_Parole_Violators_,parole.csv,multiple.offenses,True,True,True
+Predicting_Parole_Violators_,parole.csv,race,True,True,True
+Predicting_Parole_Violators_,parole.csv,state,True,True,True
+Predicting_Parole_Violators_,parole.csv,time.served,False,False,True
+Predicting_Parole_Violators_,parole.csv,violator,True,True,True
+Prison_And_Prisoners_,data_cts_prisons_and_prisoners.csv,Age,True,True,True
+Prison_And_Prisoners_,data_cts_prisons_and_prisoners.csv,Category,True,True,True
+Prison_And_Prisoners_,data_cts_prisons_and_prisoners.csv,Country,True,True,True
+Prison_And_Prisoners_,data_cts_prisons_and_prisoners.csv,Dimension,True,True,True
+Prison_And_Prisoners_,data_cts_prisons_and_prisoners.csv,Indicator,True,True,True
+Prison_And_Prisoners_,data_cts_prisons_and_prisoners.csv,Iso3_code,True,True,True
+Prison_And_Prisoners_,data_cts_prisons_and_prisoners.csv,Region,True,True,True
+Prison_And_Prisoners_,data_cts_prisons_and_prisoners.csv,Sex,True,True,True
+Prison_And_Prisoners_,data_cts_prisons_and_prisoners.csv,Source,False,True,False
+Prison_And_Prisoners_,data_cts_prisons_and_prisoners.csv,Subregion,True,True,True
+Prison_And_Prisoners_,data_cts_prisons_and_prisoners.csv,Unit of measurement,False,True,False
+Prison_And_Prisoners_,data_cts_prisons_and_prisoners.csv,VALUE,False,False,True
+Prison_And_Prisoners_,data_cts_prisons_and_prisoners.csv,Year,False,True,False
+Programming_Languages_Trend_Over_Time_,programming language trend over time.csv,C++,False,False,True
+Programming_Languages_Trend_Over_Time_,programming language trend over time.csv,Java,False,False,True
+Programming_Languages_Trend_Over_Time_,programming language trend over time.csv,Python,False,False,True
+Programming_Languages_Trend_Over_Time_,programming language trend over time.csv,Week,False,False,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,AQI,False,False,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Age,False,False,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Case_Fatality_Ratio,False,False,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Chronic_Conditions,True,True,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Compliance_with_Health_Guidelines,True,True,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Daily_New_Cases,False,False,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Date_of_Data_Collection,False,False,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Date_of_Onset,False,False,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Diagnosis,True,True,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Disease_Severity,True,True,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Ethnicity,True,True,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Gender,True,True,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Healthcare_Personnel_Availability,False,False,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Hospital_Capacity,False,False,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Hospitalization_Rate,False,False,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Hospitalization_Requirement,True,True,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Humidity,False,False,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Immunity_Level,True,True,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Infection_Risk_Level,True,True,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Location,True,True,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Medical_History,True,True,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Mortality_Rate,False,False,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Outbreak_Status,True,True,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Population_Density,False,False,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Reported_Symptoms,True,True,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Resource_Utilization,False,False,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,SES,True,True,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Social_Activity,True,True,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Temperature,False,False,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Testing_Results,True,True,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Transmission_Rate,True,False,False
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Travel_History,True,True,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Vaccination_Campaign_Dates,False,False,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Vaccination_Hesitancy,True,True,True
+Public_Health_Dataset__,public_health_surveillance_dataset.csv,Vaccination_Status,True,True,True
+Salary_Prediction_dataset__,Salary Data.csv,Age,False,False,True
+Salary_Prediction_dataset__,Salary Data.csv,Education Level,True,True,True
+Salary_Prediction_dataset__,Salary Data.csv,Gender,True,True,True
+Salary_Prediction_dataset__,Salary Data.csv,Job Title,True,True,True
+Salary_Prediction_dataset__,Salary Data.csv,Salary,False,False,True
+Salary_Prediction_dataset__,Salary Data.csv,Years of Experience,False,False,True
+Sleep_Health_and_Lifestyle_Dataset_,Sleep_health_and_lifestyle_dataset.csv,Age,False,False,True
+Sleep_Health_and_Lifestyle_Dataset_,Sleep_health_and_lifestyle_dataset.csv,BMI Category,True,True,True
+Sleep_Health_and_Lifestyle_Dataset_,Sleep_health_and_lifestyle_dataset.csv,Blood Pressure,False,False,True
+Sleep_Health_and_Lifestyle_Dataset_,Sleep_health_and_lifestyle_dataset.csv,Daily Steps,False,False,True
+Sleep_Health_and_Lifestyle_Dataset_,Sleep_health_and_lifestyle_dataset.csv,Gender,True,True,True
+Sleep_Health_and_Lifestyle_Dataset_,Sleep_health_and_lifestyle_dataset.csv,Heart Rate,False,False,True
+Sleep_Health_and_Lifestyle_Dataset_,Sleep_health_and_lifestyle_dataset.csv,Occupation,True,True,True
+Sleep_Health_and_Lifestyle_Dataset_,Sleep_health_and_lifestyle_dataset.csv,Person ID,False,True,False
+Sleep_Health_and_Lifestyle_Dataset_,Sleep_health_and_lifestyle_dataset.csv,Physical Activity Level,False,False,True
+Sleep_Health_and_Lifestyle_Dataset_,Sleep_health_and_lifestyle_dataset.csv,Quality of Sleep,True,True,True
+Sleep_Health_and_Lifestyle_Dataset_,Sleep_health_and_lifestyle_dataset.csv,Sleep Disorder,True,True,True
+Sleep_Health_and_Lifestyle_Dataset_,Sleep_health_and_lifestyle_dataset.csv,Sleep Duration,False,False,True
+Sleep_Health_and_Lifestyle_Dataset_,Sleep_health_and_lifestyle_dataset.csv,Stress Level,True,True,True
+Smoker's_Health_Data_,smoking_health_data_final.csv,age,False,False,True
+Smoker's_Health_Data_,smoking_health_data_final.csv,blood_pressure,False,False,True
+Smoker's_Health_Data_,smoking_health_data_final.csv,chol,False,False,True
+Smoker's_Health_Data_,smoking_health_data_final.csv,cigs_per_day,False,False,True
+Smoker's_Health_Data_,smoking_health_data_final.csv,current_smoker,True,True,True
+Smoker's_Health_Data_,smoking_health_data_final.csv,heart_rate,False,False,True
+Smoker's_Health_Data_,smoking_health_data_final.csv,sex,True,True,True
+Soil_Quality_Classification__,soil_quality_dataset.csv,EC,False,False,True
+Soil_Quality_Classification__,soil_quality_dataset.csv,Moisture,False,False,True
+Soil_Quality_Classification__,soil_quality_dataset.csv,Nitrogen,False,False,True
+Soil_Quality_Classification__,soil_quality_dataset.csv,Organic_Carbon,False,False,True
+Soil_Quality_Classification__,soil_quality_dataset.csv,Phosphorus,False,False,True
+Soil_Quality_Classification__,soil_quality_dataset.csv,Potassium,False,False,True
+Soil_Quality_Classification__,soil_quality_dataset.csv,Soil_Quality,True,True,True
+Soil_Quality_Classification__,soil_quality_dataset.csv,Soil_Type,True,True,True
+Soil_Quality_Classification__,soil_quality_dataset.csv,Temperature,False,False,True
+Soil_Quality_Classification__,soil_quality_dataset.csv,pH,False,False,True
+student-performance_,default,default/Age,False,False,True
+student-performance_,default,default/AttendanceRate,False,False,True
+student-performance_,default,default/Extracurricular,True,True,True
+student-performance_,default,default/FreeTime,False,False,True
+student-performance_,default,default/GPA,False,False,True
+student-performance_,default,default/Gender,True,True,True
+student-performance_,default,default/GoOut,False,False,True
+student-performance_,default,default/Grade,True,True,True
+student-performance_,default,default/InternetAccess,True,True,True
+student-performance_,default,default/Locale,True,True,True
+student-performance_,default,default/ParentSupport,True,True,True
+student-performance_,default,default/ParentalEducation,True,True,True
+student-performance_,default,default/PartTimeJob,True,True,True
+student-performance_,default,default/Race,True,True,True
+student-performance_,default,default/Romantic,True,True,True
+student-performance_,default,default/SES_Quartile,True,True,True
+student-performance_,default,default/SchoolType,True,True,True
+student-performance_,default,default/StudyHours,False,False,True
+student-performance_,default,default/TestScore_Math,False,False,True
+student-performance_,default,default/TestScore_Reading,False,False,True
+student-performance_,default,default/TestScore_Science,False,False,True
+student-performance_,default,default/split,True,True,True
+student-performance_,default_splits,default_splits/split_name,True,True,True
+Student_Academic_Performance_-_500_Students__,student_performance.csv,age,False,False,True
+Student_Academic_Performance_-_500_Students__,student_performance.csv,attendance_rate,False,False,True
+Student_Academic_Performance_-_500_Students__,student_performance.csv,extracurricular,True,True,True
+Student_Academic_Performance_-_500_Students__,student_performance.csv,final_score,False,False,True
+Student_Academic_Performance_-_500_Students__,student_performance.csv,gender,True,True,True
+Student_Academic_Performance_-_500_Students__,student_performance.csv,internet_access,True,True,True
+Student_Academic_Performance_-_500_Students__,student_performance.csv,parent_education,True,True,True
+Student_Academic_Performance_-_500_Students__,student_performance.csv,passed,True,True,True
+Student_Academic_Performance_-_500_Students__,student_performance.csv,previous_score,False,False,True
+Student_Academic_Performance_-_500_Students__,student_performance.csv,student_id,False,False,True
+Student_Academic_Performance_-_500_Students__,student_performance.csv,study_hours_per_week,False,False,True
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,access_to_tutoring,True,True,True
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,age,False,False,True
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,attendance_percentage,False,False,True
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,diet_quality,True,True,True
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,dropout_risk,True,True,True
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,exam_anxiety_score,False,False,True
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,exam_score,False,False,True
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,exercise_frequency,False,False,True
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,extracurricular_participation,True,True,True
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,family_income_range,True,True,True
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,gender,True,True,True
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,internet_quality,True,True,True
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,learning_style,True,True,True
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,major,True,True,True
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,mental_health_rating,False,False,True
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,motivation_level,True,False,False
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,netflix_hours,False,False,True
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,parental_education_level,True,True,True
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,parental_support_level,True,False,False
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,part_time_job,True,True,True
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,previous_gpa,False,False,True
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,screen_time,False,False,True
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,semester,True,False,False
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,sleep_hours,False,False,True
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,social_activity,False,False,True
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,social_media_hours,False,False,True
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,stress_level,False,False,True
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,student_id,False,False,True
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,study_environment,True,True,True
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,study_hours_per_day,False,False,True
+Student_Habits_and_Academic_Performance_Dataset_,enhanced_student_habits_performance_dataset.csv,time_management_score,False,False,True
+Student_Mental_health_,Student Mental health.csv,Age,False,False,True
+Student_Mental_health_,Student Mental health.csv,Choose your gender,True,True,True
+Student_Mental_health_,Student Mental health.csv,Did you seek any specialist for a treatment?,True,True,True
+Student_Mental_health_,Student Mental health.csv,Do you have Anxiety?,True,True,True
+Student_Mental_health_,Student Mental health.csv,Do you have Depression?,True,True,True
+Student_Mental_health_,Student Mental health.csv,Do you have Panic attack?,True,True,True
+Student_Mental_health_,Student Mental health.csv,Marital status,True,True,True
+Student_Mental_health_,Student Mental health.csv,Timestamp,False,False,True
+Student_Mental_health_,Student Mental health.csv,What is your CGPA?,False,False,True
+Student_Mental_health_,Student Mental health.csv,What is your course?,True,True,True
+Student_Mental_health_,Student Mental health.csv,Your current year of Study,False,True,False
+Student_Performance_&_Behavior_Dataset__,Students Performance Dataset.csv,Age,False,False,True
+Student_Performance_&_Behavior_Dataset__,Students Performance Dataset.csv,Assignments_Avg,False,False,True
+Student_Performance_&_Behavior_Dataset__,Students Performance Dataset.csv,Attendance (%),False,False,True
+Student_Performance_&_Behavior_Dataset__,Students Performance Dataset.csv,Department,True,True,True
+Student_Performance_&_Behavior_Dataset__,Students Performance Dataset.csv,Email,False,False,True
+Student_Performance_&_Behavior_Dataset__,Students Performance Dataset.csv,Extracurricular_Activities,False,True,False
+Student_Performance_&_Behavior_Dataset__,Students Performance Dataset.csv,Family_Income_Level,True,True,True
+Student_Performance_&_Behavior_Dataset__,Students Performance Dataset.csv,Final_Score,False,False,True
+Student_Performance_&_Behavior_Dataset__,Students Performance Dataset.csv,First_Name,False,False,True
+Student_Performance_&_Behavior_Dataset__,Students Performance Dataset.csv,Gender,True,True,True
+Student_Performance_&_Behavior_Dataset__,Students Performance Dataset.csv,Grade,False,True,False
+Student_Performance_&_Behavior_Dataset__,Students Performance Dataset.csv,Internet_Access_at_Home,True,True,True
+Student_Performance_&_Behavior_Dataset__,Students Performance Dataset.csv,Last_Name,False,False,True
+Student_Performance_&_Behavior_Dataset__,Students Performance Dataset.csv,Midterm_Score,False,False,True
+Student_Performance_&_Behavior_Dataset__,Students Performance Dataset.csv,Parent_Education_Level,True,True,True
+Student_Performance_&_Behavior_Dataset__,Students Performance Dataset.csv,Participation_Score,False,False,True
+Student_Performance_&_Behavior_Dataset__,Students Performance Dataset.csv,Projects_Score,False,False,True
+Student_Performance_&_Behavior_Dataset__,Students Performance Dataset.csv,Quizzes_Avg,False,False,True
+Student_Performance_&_Behavior_Dataset__,Students Performance Dataset.csv,Sleep_Hours_per_Night,False,False,True
+Student_Performance_&_Behavior_Dataset__,Students Performance Dataset.csv,Stress_Level (1-10),True,False,False
+Student_Performance_&_Behavior_Dataset__,Students Performance Dataset.csv,Student_ID,False,False,True
+Student_Performance_&_Behavior_Dataset__,Students Performance Dataset.csv,Study_Hours_per_Week,False,False,True
+Student_Performance_&_Behavior_Dataset__,Students Performance Dataset.csv,Total_Score,False,False,True
+Student_Performance_&_Behavior_Dataset__,Students_Grading_Dataset_Biased.csv,Age,False,False,True
+Student_Performance_&_Behavior_Dataset__,Students_Grading_Dataset_Biased.csv,Assignments_Avg,False,False,True
+Student_Performance_&_Behavior_Dataset__,Students_Grading_Dataset_Biased.csv,Attendance (%),False,False,True
+Student_Performance_&_Behavior_Dataset__,Students_Grading_Dataset_Biased.csv,Department,True,True,True
+Student_Performance_&_Behavior_Dataset__,Students_Grading_Dataset_Biased.csv,Email,False,True,False
+Student_Performance_&_Behavior_Dataset__,Students_Grading_Dataset_Biased.csv,Extracurricular_Activities,False,True,False
+Student_Performance_&_Behavior_Dataset__,Students_Grading_Dataset_Biased.csv,Family_Income_Level,True,True,True
+Student_Performance_&_Behavior_Dataset__,Students_Grading_Dataset_Biased.csv,Final_Score,False,False,True
+Student_Performance_&_Behavior_Dataset__,Students_Grading_Dataset_Biased.csv,First_Name,False,True,False
+Student_Performance_&_Behavior_Dataset__,Students_Grading_Dataset_Biased.csv,Gender,True,True,True
+Student_Performance_&_Behavior_Dataset__,Students_Grading_Dataset_Biased.csv,Grade,False,True,False
+Student_Performance_&_Behavior_Dataset__,Students_Grading_Dataset_Biased.csv,Internet_Access_at_Home,True,True,True
+Student_Performance_&_Behavior_Dataset__,Students_Grading_Dataset_Biased.csv,Last_Name,False,True,False
+Student_Performance_&_Behavior_Dataset__,Students_Grading_Dataset_Biased.csv,Midterm_Score,False,False,True
+Student_Performance_&_Behavior_Dataset__,Students_Grading_Dataset_Biased.csv,Parent_Education_Level,True,True,True
+Student_Performance_&_Behavior_Dataset__,Students_Grading_Dataset_Biased.csv,Participation_Score,False,False,True
+Student_Performance_&_Behavior_Dataset__,Students_Grading_Dataset_Biased.csv,Projects_Score,False,False,True
+Student_Performance_&_Behavior_Dataset__,Students_Grading_Dataset_Biased.csv,Quizzes_Avg,False,False,True
+Student_Performance_&_Behavior_Dataset__,Students_Grading_Dataset_Biased.csv,Sleep_Hours_per_Night,False,False,True
+Student_Performance_&_Behavior_Dataset__,Students_Grading_Dataset_Biased.csv,Stress_Level (1-10),True,False,False
+Student_Performance_&_Behavior_Dataset__,Students_Grading_Dataset_Biased.csv,Student_ID,False,False,True
+Student_Performance_&_Behavior_Dataset__,Students_Grading_Dataset_Biased.csv,Study_Hours_per_Week,False,False,True
+Student_Performance_&_Behavior_Dataset__,Students_Grading_Dataset_Biased.csv,Total_Score,False,False,True
+Student_Performance_and_Clustering_Dataset_,student_dropout_behavior_dataset.csv,age,False,False,True
+Student_Performance_and_Clustering_Dataset_,student_dropout_behavior_dataset.csv,assignments_submitted,False,False,True
+Student_Performance_and_Clustering_Dataset_,student_dropout_behavior_dataset.csv,final_marks,False,False,True
+Student_Performance_and_Clustering_Dataset_,student_dropout_behavior_dataset.csv,gender,True,True,True
+Student_Performance_and_Clustering_Dataset_,student_dropout_behavior_dataset.csv,labs_attended,False,False,True
+Student_Performance_and_Clustering_Dataset_,student_dropout_behavior_dataset.csv,lectures_attended,False,False,True
+Student_Performance_and_Clustering_Dataset_,student_dropout_behavior_dataset.csv,midterm_marks,False,False,True
+Student_Performance_and_Clustering_Dataset_,student_dropout_behavior_dataset.csv,name,False,False,True
+Student_Performance_and_Clustering_Dataset_,student_dropout_behavior_dataset.csv,previous_gpa,False,False,True
+Student_Performance_and_Clustering_Dataset_,student_dropout_behavior_dataset.csv,quiz1_marks,False,False,True
+Student_Performance_and_Clustering_Dataset_,student_dropout_behavior_dataset.csv,quiz2_marks,False,False,True
+Student_Performance_and_Clustering_Dataset_,student_dropout_behavior_dataset.csv,quiz3_marks,False,False,True
+Student_Performance_and_Clustering_Dataset_,student_dropout_behavior_dataset.csv,student_id,False,False,True
+Student_Performance_and_Clustering_Dataset_,student_dropout_behavior_dataset.csv,total_assignments,False,False,True
+Student_Performance_and_Clustering_Dataset_,student_dropout_behavior_dataset.csv,total_lab_sessions,False,False,True
+Student_Performance_and_Clustering_Dataset_,student_dropout_behavior_dataset.csv,total_lectures,False,False,True
+STUDENT_PERFORMANCE_DATA_,student_data_100 (1).csv,Fedu,True,True,True
+STUDENT_PERFORMANCE_DATA_,student_data_100 (1).csv,Fjob,True,True,True
+STUDENT_PERFORMANCE_DATA_,student_data_100 (1).csv,G1,False,False,True
+STUDENT_PERFORMANCE_DATA_,student_data_100 (1).csv,G2,False,False,True
+STUDENT_PERFORMANCE_DATA_,student_data_100 (1).csv,G3,False,False,True
+STUDENT_PERFORMANCE_DATA_,student_data_100 (1).csv,Medu,True,True,True
+STUDENT_PERFORMANCE_DATA_,student_data_100 (1).csv,Mjob,True,True,True
+STUDENT_PERFORMANCE_DATA_,student_data_100 (1).csv,Pstatus,True,True,True
+STUDENT_PERFORMANCE_DATA_,student_data_100 (1).csv,absences,False,False,True
+STUDENT_PERFORMANCE_DATA_,student_data_100 (1).csv,activities,True,True,True
+STUDENT_PERFORMANCE_DATA_,student_data_100 (1).csv,address,True,True,True
+STUDENT_PERFORMANCE_DATA_,student_data_100 (1).csv,age,False,False,True
+STUDENT_PERFORMANCE_DATA_,student_data_100 (1).csv,famsize,True,True,True
+STUDENT_PERFORMANCE_DATA_,student_data_100 (1).csv,famsup,True,True,True
+STUDENT_PERFORMANCE_DATA_,student_data_100 (1).csv,guardian,True,True,True
+STUDENT_PERFORMANCE_DATA_,student_data_100 (1).csv,internet,True,True,True
+STUDENT_PERFORMANCE_DATA_,student_data_100 (1).csv,name,False,True,False
+STUDENT_PERFORMANCE_DATA_,student_data_100 (1).csv,paid,True,True,True
+STUDENT_PERFORMANCE_DATA_,student_data_100 (1).csv,romantic,True,True,True
+STUDENT_PERFORMANCE_DATA_,student_data_100 (1).csv,schoolsup,True,True,True
+STUDENT_PERFORMANCE_DATA_,student_data_100 (1).csv,sex,True,True,True
+Student_Performance_Dataset_,Student_Performance_Dataset.csv,Age,False,False,True
+Student_Performance_Dataset_,Student_Performance_Dataset.csv,Attendance_Percentage,False,False,True
+Student_Performance_Dataset_,Student_Performance_Dataset.csv,Class,True,True,True
+Student_Performance_Dataset_,Student_Performance_Dataset.csv,English_Score,False,False,True
+Student_Performance_Dataset_,Student_Performance_Dataset.csv,Extracurricular_Activities,True,True,True
+Student_Performance_Dataset_,Student_Performance_Dataset.csv,Final_Percentage,False,False,True
+Student_Performance_Dataset_,Student_Performance_Dataset.csv,Gender,True,True,True
+Student_Performance_Dataset_,Student_Performance_Dataset.csv,Internet_Access,True,True,True
+Student_Performance_Dataset_,Student_Performance_Dataset.csv,Math_Score,False,False,True
+Student_Performance_Dataset_,Student_Performance_Dataset.csv,Parental_Education,True,True,True
+Student_Performance_Dataset_,Student_Performance_Dataset.csv,Pass_Fail,True,True,True
+Student_Performance_Dataset_,Student_Performance_Dataset.csv,Performance_Level,False,True,False
+Student_Performance_Dataset_,Student_Performance_Dataset.csv,Previous_Year_Score,False,False,True
+Student_Performance_Dataset_,Student_Performance_Dataset.csv,Science_Score,False,False,True
+Student_Performance_Dataset_,Student_Performance_Dataset.csv,Student_ID,False,False,True
+Student_Performance_Dataset_,Student_Performance_Dataset.csv,Study_Hours_Per_Day,False,False,True
+Student_Performance_Dataset__,synthetic_student_performance.csv,Absences,False,False,True
+Student_Performance_Dataset__,synthetic_student_performance.csv,Age,True,True,True
+Student_Performance_Dataset__,synthetic_student_performance.csv,Ethnicity,True,True,True
+Student_Performance_Dataset__,synthetic_student_performance.csv,Extracurricular,True,True,True
+Student_Performance_Dataset__,synthetic_student_performance.csv,GPA,False,False,True
+Student_Performance_Dataset__,synthetic_student_performance.csv,Gender,True,True,True
+Student_Performance_Dataset__,synthetic_student_performance.csv,GradeClass,True,True,True
+Student_Performance_Dataset__,synthetic_student_performance.csv,Music,True,True,True
+Student_Performance_Dataset__,synthetic_student_performance.csv,ParentalEducation,True,True,True
+Student_Performance_Dataset__,synthetic_student_performance.csv,ParentalSupport,True,True,True
+Student_Performance_Dataset__,synthetic_student_performance.csv,Sports,True,True,True
+Student_Performance_Dataset__,synthetic_student_performance.csv,StudentID,False,False,True
+Student_Performance_Dataset__,synthetic_student_performance.csv,StudyTimeWeekly,False,False,True
+Student_Performance_Dataset__,synthetic_student_performance.csv,Tutoring,True,True,True
+Student_Performance_Dataset__,synthetic_student_performance.csv,Volunteering,True,True,True
+Student_Performance_Dataset__1,Student_Performance.csv,age,False,False,True
+Student_Performance_Dataset__1,Student_Performance.csv,attendance_percentage,False,False,True
+Student_Performance_Dataset__1,Student_Performance.csv,english_score,False,False,True
+Student_Performance_Dataset__1,Student_Performance.csv,extra_activities,True,True,True
+Student_Performance_Dataset__1,Student_Performance.csv,final_grade,False,True,False
+Student_Performance_Dataset__1,Student_Performance.csv,gender,True,True,True
+Student_Performance_Dataset__1,Student_Performance.csv,internet_access,True,True,True
+Student_Performance_Dataset__1,Student_Performance.csv,math_score,False,False,True
+Student_Performance_Dataset__1,Student_Performance.csv,overall_score,False,False,True
+Student_Performance_Dataset__1,Student_Performance.csv,parent_education,True,True,True
+Student_Performance_Dataset__1,Student_Performance.csv,school_type,True,True,True
+Student_Performance_Dataset__1,Student_Performance.csv,science_score,False,False,True
+Student_Performance_Dataset__1,Student_Performance.csv,student_id,False,True,False
+Student_Performance_Dataset__1,Student_Performance.csv,study_hours,False,False,True
+Student_Performance_Dataset__1,Student_Performance.csv,study_method,True,True,True
+Student_Performance_Dataset__1,Student_Performance.csv,travel_time,False,False,True
+Student_Performance_in_Secondary_Education_,student.csv,Dalc,True,True,True
+Student_Performance_in_Secondary_Education_,student.csv,Fedu,True,True,True
+Student_Performance_in_Secondary_Education_,student.csv,Fjob,True,True,True
+Student_Performance_in_Secondary_Education_,student.csv,G1,False,False,True
+Student_Performance_in_Secondary_Education_,student.csv,G2,False,False,True
+Student_Performance_in_Secondary_Education_,student.csv,G3,False,False,True
+Student_Performance_in_Secondary_Education_,student.csv,Medu,True,True,True
+Student_Performance_in_Secondary_Education_,student.csv,Mjob,True,True,True
+Student_Performance_in_Secondary_Education_,student.csv,Pstatus,True,True,True
+Student_Performance_in_Secondary_Education_,student.csv,Walc,True,True,True
+Student_Performance_in_Secondary_Education_,student.csv,absences,False,False,True
+Student_Performance_in_Secondary_Education_,student.csv,activities,True,True,True
+Student_Performance_in_Secondary_Education_,student.csv,address,True,True,True
+Student_Performance_in_Secondary_Education_,student.csv,age,False,False,True
+Student_Performance_in_Secondary_Education_,student.csv,failures,True,True,True
+Student_Performance_in_Secondary_Education_,student.csv,famrel,True,True,True
+Student_Performance_in_Secondary_Education_,student.csv,famsize,True,True,True
+Student_Performance_in_Secondary_Education_,student.csv,famsup,True,True,True
+Student_Performance_in_Secondary_Education_,student.csv,freetime,True,True,True
+Student_Performance_in_Secondary_Education_,student.csv,goout,True,True,True
+Student_Performance_in_Secondary_Education_,student.csv,guardian,True,True,True
+Student_Performance_in_Secondary_Education_,student.csv,health,True,True,True
+Student_Performance_in_Secondary_Education_,student.csv,higher,True,True,True
+Student_Performance_in_Secondary_Education_,student.csv,internet,True,True,True
+Student_Performance_in_Secondary_Education_,student.csv,nursery,True,True,True
+Student_Performance_in_Secondary_Education_,student.csv,paid,True,True,True
+Student_Performance_in_Secondary_Education_,student.csv,reason,True,True,True
+Student_Performance_in_Secondary_Education_,student.csv,romantic,True,True,True
+Student_Performance_in_Secondary_Education_,student.csv,school,True,True,True
+Student_Performance_in_Secondary_Education_,student.csv,schoolsup,True,True,True
+Student_Performance_in_Secondary_Education_,student.csv,sex,True,True,True
+Student_Performance_in_Secondary_Education_,student.csv,studytime,False,True,False
+Student_Performance_in_Secondary_Education_,student.csv,traveltime,True,True,True
+Student_Performance_Prediction__,student_performance_dataset.csv,Attendance_Rate,False,False,True
+Student_Performance_Prediction__,student_performance_dataset.csv,Extracurricular_Activities,True,True,True
+Student_Performance_Prediction__,student_performance_dataset.csv,Final_Exam_Score,False,False,True
+Student_Performance_Prediction__,student_performance_dataset.csv,Gender,True,True,True
+Student_Performance_Prediction__,student_performance_dataset.csv,Internet_Access_at_Home,True,True,True
+Student_Performance_Prediction__,student_performance_dataset.csv,Parental_Education_Level,True,True,True
+Student_Performance_Prediction__,student_performance_dataset.csv,Pass_Fail,True,True,True
+Student_Performance_Prediction__,student_performance_dataset.csv,Past_Exam_Scores,False,False,True
+Student_Performance_Prediction__,student_performance_dataset.csv,Student_ID,False,False,True
+Student_Performance_Prediction__,student_performance_dataset.csv,Study_Hours_per_Week,False,False,True
+Student_Performance_Prediction_Dataset__,Students Performance .csv,Additional_Work,True,True,True
+Student_Performance_Prediction_Dataset__,Students Performance .csv,Attendance,False,False,True
+Student_Performance_Prediction_Dataset__,Students Performance .csv,Grade,False,False,True
+Student_Performance_Prediction_Dataset__,Students Performance .csv,High_School_Type,True,True,True
+Student_Performance_Prediction_Dataset__,Students Performance .csv,Listening_in_Class,False,False,True
+Student_Performance_Prediction_Dataset__,Students Performance .csv,Notes,False,False,True
+Student_Performance_Prediction_Dataset__,Students Performance .csv,Project_work,False,True,False
+Student_Performance_Prediction_Dataset__,Students Performance .csv,Reading,False,False,True
+Student_Performance_Prediction_Dataset__,Students Performance .csv,Scholarship,True,True,True
+Student_Performance_Prediction_Dataset__,Students Performance .csv,Sex,True,True,True
+Student_Performance_Prediction_Dataset__,Students Performance .csv,Sports_activity,True,True,True
+Student_Performance_Prediction_Dataset__,Students Performance .csv,Student_Age,False,False,True
+Student_Performance_Prediction_Dataset__,Students Performance .csv,Student_ID,False,False,True
+Student_Performance_Prediction_Dataset__,Students Performance .csv,Transportation,True,True,True
+Student_Performance_Prediction_Dataset__,Students Performance .csv,Weekly_Study_Hours,False,False,True
+Student_Study_Performance_,study_performance.csv,gender,True,True,True
+Student_Study_Performance_,study_performance.csv,lunch,True,True,True
+Student_Study_Performance_,study_performance.csv,math_score,False,False,True
+Student_Study_Performance_,study_performance.csv,parental_level_of_education,True,True,True
+Student_Study_Performance_,study_performance.csv,race_ethnicity,True,True,True
+Student_Study_Performance_,study_performance.csv,reading_score,False,False,True
+Student_Study_Performance_,study_performance.csv,test_preparation_course,True,True,True
+Student_Study_Performance_,study_performance.csv,writing_score,False,False,True
+Students_Academic_Performance_Dataset,StudentsPerformance.csv,gender,True,True,True
+Students_Academic_Performance_Dataset,StudentsPerformance.csv,lunch,True,True,True
+Students_Academic_Performance_Dataset,StudentsPerformance.csv,math score,False,False,True
+Students_Academic_Performance_Dataset,StudentsPerformance.csv,parental level of education,True,True,True
+Students_Academic_Performance_Dataset,StudentsPerformance.csv,race/ethnicity,True,True,True
+Students_Academic_Performance_Dataset,StudentsPerformance.csv,reading score,False,False,True
+Students_Academic_Performance_Dataset,StudentsPerformance.csv,test preparation course,True,True,True
+Students_Academic_Performance_Dataset,StudentsPerformance.csv,writing score,False,False,True
+Students_Adaptability_Level_in_Online_Education__,students_adaptability_level_online_education.csv,Adaptivity Level,True,True,True
+Students_Adaptability_Level_in_Online_Education__,students_adaptability_level_online_education.csv,Age,True,True,True
+Students_Adaptability_Level_in_Online_Education__,students_adaptability_level_online_education.csv,Class Duration,True,True,True
+Students_Adaptability_Level_in_Online_Education__,students_adaptability_level_online_education.csv,Device,True,True,True
+Students_Adaptability_Level_in_Online_Education__,students_adaptability_level_online_education.csv,Education Level,True,True,True
+Students_Adaptability_Level_in_Online_Education__,students_adaptability_level_online_education.csv,Financial Condition,True,True,True
+Students_Adaptability_Level_in_Online_Education__,students_adaptability_level_online_education.csv,Gender,True,True,True
+Students_Adaptability_Level_in_Online_Education__,students_adaptability_level_online_education.csv,IT Student,True,True,True
+Students_Adaptability_Level_in_Online_Education__,students_adaptability_level_online_education.csv,Institution Type,True,True,True
+Students_Adaptability_Level_in_Online_Education__,students_adaptability_level_online_education.csv,Internet Type,True,True,True
+Students_Adaptability_Level_in_Online_Education__,students_adaptability_level_online_education.csv,Load-shedding,True,True,True
+Students_Adaptability_Level_in_Online_Education__,students_adaptability_level_online_education.csv,Location,True,True,True
+Students_Adaptability_Level_in_Online_Education__,students_adaptability_level_online_education.csv,Network Type,False,True,False
+Students_Adaptability_Level_in_Online_Education__,students_adaptability_level_online_education.csv,Self Lms,True,True,True
+Students_Performance_Dataset,Student_performance_data _.csv,Absences,True,False,False
+Students_Performance_Dataset,Student_performance_data _.csv,Age,True,True,True
+Students_Performance_Dataset,Student_performance_data _.csv,Ethnicity,True,True,True
+Students_Performance_Dataset,Student_performance_data _.csv,Extracurricular,True,True,True
+Students_Performance_Dataset,Student_performance_data _.csv,GPA,True,False,False
+Students_Performance_Dataset,Student_performance_data _.csv,Gender,True,True,True
+Students_Performance_Dataset,Student_performance_data _.csv,GradeClass,True,True,True
+Students_Performance_Dataset,Student_performance_data _.csv,Music,True,True,True
+Students_Performance_Dataset,Student_performance_data _.csv,ParentalEducation,True,True,True
+Students_Performance_Dataset,Student_performance_data _.csv,ParentalSupport,True,True,True
+Students_Performance_Dataset,Student_performance_data _.csv,Sports,True,True,True
+Students_Performance_Dataset,Student_performance_data _.csv,StudentID,True,True,True
+Students_Performance_Dataset,Student_performance_data _.csv,StudyTimeWeekly,True,False,False
+Students_Performance_Dataset,Student_performance_data _.csv,Tutoring,True,True,True
+Students_Performance_Dataset,Student_performance_data _.csv,Volunteering,True,True,True
+Video_Game_Sales,video_games_sales.csv,EU_Sales,False,False,True
+Video_Game_Sales,video_games_sales.csv,Genre,True,True,True
+Video_Game_Sales,video_games_sales.csv,Global_Sales,False,False,True
+Video_Game_Sales,video_games_sales.csv,JP_Sales,False,False,True
+Video_Game_Sales,video_games_sales.csv,NA_Sales,False,False,True
+Video_Game_Sales,video_games_sales.csv,Name,False,True,False
+Video_Game_Sales,video_games_sales.csv,Other_Sales,False,False,True
+Video_Game_Sales,video_games_sales.csv,Platform,True,True,True
+Video_Game_Sales,video_games_sales.csv,Publisher,True,True,True
+Video_Game_Sales,video_games_sales.csv,Rank,False,False,True
+Video_Game_Sales,video_games_sales.csv,Year,False,False,True
+Wine_Dataset__,winequality-red (1).csv,alcohol,False,False,True
+Wine_Dataset__,winequality-red (1).csv,chlorides,False,False,True
+Wine_Dataset__,winequality-red (1).csv,citric_acid,False,False,True
+Wine_Dataset__,winequality-red (1).csv,density,False,False,True
+Wine_Dataset__,winequality-red (1).csv,fixed_acidity,False,False,True
+Wine_Dataset__,winequality-red (1).csv,free_sulfur_dioxide,False,False,True
+Wine_Dataset__,winequality-red (1).csv,pH,False,False,True
+Wine_Dataset__,winequality-red (1).csv,quality,True,True,True
+Wine_Dataset__,winequality-red (1).csv,residual_sugar,False,False,True
+Wine_Dataset__,winequality-red (1).csv,sulphates,False,False,True
+Wine_Dataset__,winequality-red (1).csv,total_sulfur_dioxide,False,False,True
+Wine_Dataset__,winequality-red (1).csv,volatile_acidity,False,False,True
+Zoo_Animals__,zoo.csv,airborne,True,True,True
+Zoo_Animals__,zoo.csv,animal,True,True,True
+Zoo_Animals__,zoo.csv,aquatic,True,True,True
+Zoo_Animals__,zoo.csv,backbone,True,True,True
+Zoo_Animals__,zoo.csv,breathes,True,True,True
+Zoo_Animals__,zoo.csv,catsize,True,True,True
+Zoo_Animals__,zoo.csv,domestic,True,True,True
+Zoo_Animals__,zoo.csv,eggs,True,True,True
+Zoo_Animals__,zoo.csv,feathers,True,True,True
+Zoo_Animals__,zoo.csv,fins,True,True,True
+Zoo_Animals__,zoo.csv,hair,True,True,True
+Zoo_Animals__,zoo.csv,legs,True,True,True
+Zoo_Animals__,zoo.csv,milk,True,True,True
+Zoo_Animals__,zoo.csv,predator,True,True,True
+Zoo_Animals__,zoo.csv,tail,True,True,True
+Zoo_Animals__,zoo.csv,toothed,True,True,True
+Zoo_Animals__,zoo.csv,type,True,True,True
+Zoo_Animals__,zoo.csv,venomous,True,True,True

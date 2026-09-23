@@ -120,8 +120,6 @@ def _analyze_combinations_for_recordset(
 
             # Actual observed group counts for this combination
             group_counts_s = df.groupby(attrs, dropna=False).size()
-            k_obs = int(group_counts_s.shape[0])  # observed groups
-            equal_share_obs = (1.0 / k_obs) if k_obs > 0 else 0.0
             group_counts = group_counts_s.to_dict()
 
             # Domain cartesian product defines all possible groups
@@ -129,6 +127,10 @@ def _analyze_combinations_for_recordset(
             num_possible = 1
             for dl in dom_lists:
                 num_possible *= max(1, len(dl))
+
+            equal_share = (
+                1.0 / num_possible if num_possible > 0 else 0.0
+            )
 
             for value_tuple in itertools.product(*dom_lists):
                 if len(attrs) == 1:
@@ -141,7 +143,7 @@ def _analyze_combinations_for_recordset(
                 category = _categorize_group(
                     count=count,
                     total=N,
-                    num_possible_groups=k_obs,
+                    num_possible_groups=num_possible,
                     under_ratio=under_ratio,
                     over_ratio=over_ratio,
                 )
@@ -151,7 +153,7 @@ def _analyze_combinations_for_recordset(
                     "values": [str(v) for v in value_tuple],
                     "count": int(count),
                     "proportion": float(count / N) if N > 0 else 0.0,
-                    "equal_share": float(equal_share_obs),
+                    "equal_share": float(equal_share),
                     "category": category,
                 }
                 level_groups.append(group_info)

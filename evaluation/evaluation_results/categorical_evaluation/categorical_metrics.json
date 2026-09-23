@@ -1,0 +1,18 @@
+{
+  "n_fields": 1932,
+  "human_categorical": 1068,
+  "human_non_categorical": 864,
+  "predicted_categorical": 1102,
+  "predicted_non_categorical": 830,
+  "accuracy": 0.912008281573499,
+  "precision": 0.9074410163339383,
+  "recall": 0.9363295880149812,
+  "f1": 0.9216589861751152,
+  "specificity": 0.8819444444444444,
+  "balanced_accuracy": 0.9091370162297128,
+  "tn": 762,
+  "fp": 102,
+  "fn": 68,
+  "tp": 1000,
+  "datasets": 102
+}
