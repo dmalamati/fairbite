@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from matplotlib.colors import BoundaryNorm, ListedColormap
-from matplotlib.patches import Patch
+from matplotlib.lines import Line2D
 
 # The imported backend initializes Gemini at import time, although this plot
 # only uses Croissant loading and the local representation audit.
@@ -215,24 +215,28 @@ race_order = ordered_values(
 status_codes = {"Absent": 0, "Below": 1, "Within": 2, "Above": 3}
 status_labels = ["Absent", "Below", "Within", "Above"]
 
-# Harmonized variants of the purple, gold, teal, and red used elsewhere in
-# the paper. Similar saturation keeps any one category from dominating.
+# FairBite-inspired colors drawn from the blue, orange, and green layers in
+# the project diagram. The softer fills keep the dense labels easy to read.
 category_colors = {
-    "Absent": "#8B6A91",
-    "Below": "#DDBB45",
-    "Within": "#67AAA6",
-    "Above": "#C85A5E",
+    "Absent": "#90A4C3",
+    "Below": "#F5C6A5",
+    "Within": "#A8DEB7",
+    "Above": "#E97B4C",
 }
 cmap = ListedColormap([category_colors[label] for label in status_labels])
 norm = BoundaryNorm(np.arange(-0.5, 4.5, 1), cmap.N)
+
+background_color = "#FFFFFF"
+text_color = "#172033"
+secondary_text_color = "#5F6B7A"
 
 plt.rcParams.update(
     {
         "font.family": "sans-serif",
         "font.size": 10,
-        "axes.labelcolor": "#252525",
-        "xtick.color": "#252525",
-        "ytick.color": "#252525",
+        "axes.labelcolor": text_color,
+        "xtick.color": secondary_text_color,
+        "ytick.color": secondary_text_color,
         "pdf.fonttype": 42,
         "ps.fonttype": 42,
     }
@@ -241,9 +245,9 @@ plt.rcParams.update(
 fig, axes = plt.subplots(
     1,
     len(sex_order),
-    figsize=(12.4, 4.65),
+    figsize=(13.2, 5.25),
     sharey=True,
-    facecolor="white",
+    facecolor=background_color,
 )
 
 if len(sex_order) == 1:
@@ -281,19 +285,33 @@ for ax, sex in zip(axes, sex_order):
         status_matrix,
         cmap=cmap,
         norm=norm,
-        aspect="auto",
+        aspect="equal",
+        interpolation="none",
     )
-    ax.set_title(sex, fontsize=13, fontweight="semibold", pad=11)
+    ax.set_facecolor("white")
+    ax.set_title(
+        sex,
+        fontsize=14,
+        fontweight="bold",
+        color=text_color,
+        pad=13,
+    )
     ax.set_xticks(np.arange(len(race_order)))
-    ax.set_xticklabels(race_order, rotation=32, ha="right", rotation_mode="anchor")
+    ax.set_xticklabels(
+        race_order,
+        rotation=30,
+        ha="right",
+        rotation_mode="anchor",
+        fontsize=10,
+    )
     ax.set_yticks(np.arange(len(age_order)))
-    ax.set_yticklabels(age_order)
-    ax.set_xlabel("Race")
+    ax.set_yticklabels(age_order, fontsize=10.5)
+    ax.set_xlabel("Race", fontsize=11, labelpad=8)
 
     # Subtle cell borders improve readability without adding visual weight.
     ax.set_xticks(np.arange(-0.5, len(race_order), 1), minor=True)
     ax.set_yticks(np.arange(-0.5, len(age_order), 1), minor=True)
-    ax.grid(which="minor", color="white", linewidth=2.0)
+    ax.grid(which="minor", color=background_color, linewidth=2.6)
     ax.tick_params(which="minor", bottom=False, left=False)
     ax.tick_params(which="major", length=0)
     for spine in ax.spines.values():
@@ -304,13 +322,19 @@ for ax, sex in zip(axes, sex_order):
             text = label_matrix[i, j]
             if text:
                 status = status_matrix[i, j]
-                text_color = "white" if status in {0, 3} else "#202020"
+                cell_text_color = "white" if status == 3 else text_color
                 ax.text(
                     j, i, text, ha="center", va="center",
-                    fontsize=8.2, color=text_color, linespacing=1.25,
+                    fontsize=9,
+                    color=cell_text_color,
+                    linespacing=1.3,
                 )
 
-axes[0].set_ylabel("Age category")
+axes[0].set_ylabel(
+    "Age category",
+    fontsize=11,
+    labelpad=10,
+)
 
 
 # ============================================================
@@ -318,21 +342,29 @@ axes[0].set_ylabel("Age category")
 # ============================================================
 
 legend_handles = [
-    Patch(facecolor=category_colors[label], edgecolor="none", label=label)
+    Line2D(
+        [0],
+        [0],
+        marker="s",
+        linestyle="none",
+        markerfacecolor=category_colors[label],
+        markeredgecolor="none",
+        markersize=10,
+        label=label,
+    )
     for label in status_labels
 ]
 fig.legend(
     handles=legend_handles,
     loc="upper center",
-    bbox_to_anchor=(0.54, 0.995),
+    bbox_to_anchor=(0.5, 0.985),
     ncol=4,
     frameon=False,
-    handlelength=1.35,
-    handleheight=0.85,
-    columnspacing=1.8,
-    handletextpad=0.5,
-    title="Representation category",
-    title_fontproperties={"weight": "semibold", "size": 10},
+    handlelength=0.8,
+    columnspacing=1.65,
+    handletextpad=0.45,
+    labelcolor=text_color,
+    fontsize=10.5,
 )
 
 
@@ -343,13 +375,24 @@ fig.legend(
 plt.subplots_adjust(
     left=0.145,
     right=0.985,
-    bottom=0.255,
-    top=0.83,
-    wspace=0.11,
+    bottom=0.225,
+    top=0.84,
+    wspace=0.13,
 )
 
-fig.savefig(OUTPUT_PDF, bbox_inches="tight")
-fig.savefig(OUTPUT_PNG, dpi=300, bbox_inches="tight")
+fig.savefig(
+    OUTPUT_PDF,
+    bbox_inches="tight",
+    facecolor=background_color,
+    transparent=False,
+)
+fig.savefig(
+    OUTPUT_PNG,
+    dpi=300,
+    bbox_inches="tight",
+    facecolor=background_color,
+    transparent=False,
+)
 
 print("\nLevel-3 audit summary:")
 print(audit_df["status"].value_counts())
